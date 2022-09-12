@@ -15,9 +15,9 @@ from tap_amazon_advertising.streams.campaign_negative_keywords import CampaignNe
 from tap_amazon_advertising.streams.product_ads import ProductAdsStream
 
 from tap_amazon_advertising.streams.sponsored_products_report import SponsoredProductsReportProductAdsStream, \
-        SponsoredProductsReportCampaignsStream, \
-        SponsoredProductsReportAdGroupsStream, \
-        SponsoredProductsReportKeywordsStream
+    SponsoredProductsReportCampaignsStream, \
+    SponsoredProductsReportAdGroupsStream, \
+    SponsoredProductsReportKeywordsStream, SponsoredProductsReportTargetStream
 
 from tap_amazon_advertising.streams.sponsored_brands_report import SponsoredBrandsReportKeywordsStream, \
     SponsoredBrandsReportCampaignsStream, \
@@ -42,6 +42,7 @@ AVAILABLE_STREAMS = [
     SponsoredProductsReportCampaignsStream,
     SponsoredProductsReportAdGroupsStream,
     SponsoredProductsReportKeywordsStream,
+    SponsoredProductsReportTargetStream,
 
     # SB Reports
     SponsoredBrandsReportKeywordsStream,

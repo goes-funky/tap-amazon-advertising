@@ -245,7 +245,7 @@ class SponsoredProductsReportKeywordsStream(BaseSponsoredProductsReportStream):
 
 class SponsoredProductsReportTargetStream(BaseSponsoredProductsReportStream):
     TABLE = 'sponsored_products_report_targets'
-    KEY_PROPERTIES = ['keywordId', 'day', 'profileId']
+    KEY_PROPERTIES = ['targetId', 'day', 'profileId']
 
     @property
     def recordType(self):
@@ -268,3 +268,21 @@ class SponsoredProductsReportTargetStream(BaseSponsoredProductsReportStream):
 
             )
         }
+
+
+class SponsoredProductsReportSearchTermsKeywordStream(SponsoredProductsReportKeywordsStream):
+    TABLE = 'sponsored_products_report_search_terms_keyword'
+
+    def get_body(self, day):
+        body = super().get_body(day)
+        body["segment"] = "query"
+        return body
+
+
+class SponsoredProductsReportSearchTermsTargetStream(SponsoredProductsReportTargetStream):
+    TABLE = 'sponsored_products_report_search_terms_target'
+
+    def get_body(self, day):
+        body = super().get_body(day)
+        body["segment"] = "query"
+        return body

@@ -17,8 +17,7 @@ RESPONSES_DIR = 'tests/responses/'
 RECORDING_CONF = {
     'filter_req_data': ['client_id', 'client_secret', 'refresh_token'],
     'filter_req_headers': ['Authorization', 'Amazon-Advertising-API-ClientId', 'Amazon-Advertising-API-Scope'],
-    'filter_resp_data': True,
-    'filter_resp_data_skip_keys': ['id', 'scope', 'status', 'statusDetails', 'location', 'last_record', 'reportId']
+    'filter_resp_data_except': ['id', 'scope', 'status', 'statusDetails', 'location', 'last_record', 'reportId']
 }
 
 
@@ -349,6 +348,7 @@ def test_stream_sponsored_products_campaigns():
     tap_amazon_advertising.main()
 
 
+@pytest.mark.skip('Takes too long to complete')
 @assert_stdout_matches(os.path.join(RESPONSES_DIR, 'sponsored_products_report_ad_groups.txt'))
 @intercept_requests(os.path.join(REQUESTS_DIR, 'sponsored_products_report_ad_groups.txt'),
                     generate=False,
@@ -363,6 +363,7 @@ def test_stream_sponsored_products_report_ad_groups():
     tap_amazon_advertising.main()
 
 
+@pytest.mark.skip('Takes too long to complete')
 @assert_stdout_matches(os.path.join(RESPONSES_DIR, 'sponsored_products_report_campaigns.txt'))
 @intercept_requests(os.path.join(REQUESTS_DIR, 'sponsored_products_report_campaigns.txt'),
                     generate=False,
@@ -377,6 +378,7 @@ def test_stream_sponsored_products_report_campaigns():
     tap_amazon_advertising.main()
 
 
+@pytest.mark.skip('Takes too long to complete')
 @assert_stdout_matches(os.path.join(RESPONSES_DIR, 'sponsored_products_report_keywords.txt'))
 @intercept_requests(os.path.join(REQUESTS_DIR, 'sponsored_products_report_keywords.txt'),
                     generate=False,
@@ -391,6 +393,7 @@ def test_stream_sponsored_products_report_keywords():
     tap_amazon_advertising.main()
 
 
+@pytest.mark.skip('Takes too long to complete')
 @assert_stdout_matches(os.path.join(RESPONSES_DIR, 'sponsored_products_report_product_ads.txt'))
 @intercept_requests(os.path.join(REQUESTS_DIR, 'sponsored_products_report_product_ads.txt'),
                     generate=False,

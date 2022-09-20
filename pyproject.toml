@@ -16,7 +16,7 @@ python = "^3.9"
 tap-framework = "0.0.4"
 
 [tool.poetry.dev-dependencies]
-integrations-testing-framework = {git = "ssh://git@github.com/goes-funky/integrations-testing-framework.git"}
+integrations-testing-framework = {git = "http://github.com/goes-funky/integrations-testing-framework.git"}
 pytest = "^7.1.2"
 coverage = "^6.4.4"
 pytest-cov = "^3.0.0"

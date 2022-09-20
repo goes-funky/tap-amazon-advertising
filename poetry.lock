@@ -84,7 +84,7 @@ python-versions = "*"
 
 [[package]]
 name = "integrations-testing-framework"
-version = "0.3.0"
+version = "0.2.1"
 description = ""
 category = "dev"
 optional = false
@@ -95,8 +95,10 @@ develop = false
 vcrpy = "^4.2.0"
 
 [package.source]
-type = "directory"
-url = "../../integrations-testing-framework"
+type = "git"
+url = "http://github.com/goes-funky/integrations-testing-framework.git"
+reference = "master"
+resolved_reference = "760e60fcc235f4c2c69eb210a3c7c1dfa5aebcdd"
 
 [[package]]
 name = "jsonschema"
@@ -373,7 +375,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "eb3dacef5daf60a4677ce011559d23832c32884d32db8643672ae3ec32477295"
+content-hash = "a81f054e405f1aab2df1a54a6155ef263e824359d2667a95a1bf44934456e376"
 
 [metadata.files]
 attrs = [

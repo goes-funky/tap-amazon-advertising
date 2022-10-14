@@ -5,6 +5,10 @@
       "description": "The ID of the profile",
       "type": "integer"
     },
+    "day": {
+      "type": "string",
+      "format": "date-time"
+    },
     "adGroupId": {
       "type": [
         "null",

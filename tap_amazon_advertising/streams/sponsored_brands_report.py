@@ -367,7 +367,7 @@ class SponsoredBrandsReportPlacement(BaseSponsoredBrandsReportStream):
                                  'attributedSalesNewToBrandPercentage14d', 'attributedUnitsOrderedNewToBrand14d',
                                  'attributedUnitsOrderedNewToBrandPercentage14d', 'campaignBudget',
                                  'campaignBudgetType', 'campaignId', 'campaignName', 'campaignRuleBasedBudget',
-                                 'campaignStatus', 'clicks', 'cost', 'dpv14d', 'impressions', 'placement',
+                                 'campaignStatus', 'clicks', 'cost', 'dpv14d', 'impressions',
                                  'unitsSold14d', 'attributedBrandedSearches14d']
                                 )
         }
@@ -387,7 +387,7 @@ class SponsoredBrandsVideoReportPlacement(BaseSponsoredBrandsReportStream):
             "metrics": ",".join(
                 ['attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedSales14d',
                  'attributedSales14dSameSKU', 'campaignBudget', 'campaignBudgetType', 'campaignId', 'campaignName',
-                 'campaignStatus', 'clicks', 'cost', 'impressions', 'placement', 'vctr', 'video5SecondViewRate',
+                 'campaignStatus', 'clicks', 'cost', 'impressions', 'vctr', 'video5SecondViewRate',
                  'video5SecondViews', 'videoCompleteViews', 'videoFirstQuartileViews', 'videoMidpointViews',
                  'videoThirdQuartileViews', 'videoUnmutes', 'viewableImpressions', 'vtr', 'dpv14d',
                  'attributedDetailPageViewsClicks14d', 'attributedOrderRateNewToBrand14d',
@@ -411,7 +411,6 @@ class SponsoredBrandsReportAds(BaseSponsoredBrandsReportStream):
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
-            "segment": "placement",
             "metrics": ",".join(
                 ['adGroupId', 'adGroupName', 'adId', 'applicableBudgetRuleId', 'applicableBudgetRuleName',
                  'attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedDetailPageViewsClicks14d',

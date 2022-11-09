@@ -329,8 +329,7 @@ class __SponsoredProductsReportASIN(BaseSponsoredProductsReportStream):
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join(['adGroupId', 'adGroupName', 'asin', 'attributedKindleEditionNormalizedPagesRead14d',
-                                 'attributedKindleEditionNormalizedPagesRoyalties14d', 'attributedSales14dOtherSKU',
+            "metrics": ",".join(['adGroupId', 'adGroupName', 'asin', 'attributedSales14dOtherSKU',
                                  'attributedSales1dOtherSKU', 'attributedSales30dOtherSKU', 'attributedSales7dOtherSKU',
                                  'attributedUnitsOrdered14d', 'attributedUnitsOrdered14dOtherSKU',
                                  'attributedUnitsOrdered1d', 'attributedUnitsOrdered1dOtherSKU',

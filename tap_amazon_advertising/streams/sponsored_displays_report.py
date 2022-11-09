@@ -259,6 +259,7 @@ class SponsoredDisplaysReportASINStream(BaseSponsoredDisplaysReportStream):
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
             "metrics": ",".join(
                 ['adGroupId', 'adGroupName', 'asin', 'attributedSales14dOtherSKU', 'attributedSales1dOtherSKU',
                  'attributedSales30dOtherSKU', 'attributedSales7dOtherSKU', 'attributedUnitsOrdered14dOtherSKU',
@@ -293,7 +294,7 @@ class SponsoredDisplaysReportMatchedTargetCampaignsStream(BaseSponsoredDisplaysR
                  'viewAttributedConversions14d', 'viewAttributedDetailPageView14d', 'viewAttributedSales14d',
                  'viewAttributedUnitsOrdered14d', 'viewImpressions', 'viewAttributedOrdersNewToBrand14d',
                  'viewAttributedSalesNewToBrand14d', 'viewAttributedUnitsOrderedNewToBrand14d',
-                 'attributedBrandedSearches14d', 'viewAttributedBrandedSearches14d', 'matchedTarget']
+                 'attributedBrandedSearches14d', 'viewAttributedBrandedSearches14d']
             ),
             "segment": "matchedTarget"
         }
@@ -323,7 +324,7 @@ class SponsoredDisplaysReportMatchedTargetAdGroupsStream(BaseSponsoredDisplaysRe
                  'viewAttributedSales14d', 'viewAttributedUnitsOrdered14d', 'viewImpressions',
                  'viewAttributedOrdersNewToBrand14d', 'viewAttributedSalesNewToBrand14d',
                  'viewAttributedUnitsOrderedNewToBrand14d', 'attributedBrandedSearches14d',
-                 'viewAttributedBrandedSearches14d', 'matchedTarget']
+                 'viewAttributedBrandedSearches14d']
             ),
             "segment": "matchedTarget"
         }
@@ -354,7 +355,7 @@ class SponsoredDisplaysReportMatchedTargetTargetsStream(BaseSponsoredDisplaysRep
                  'viewAttributedDetailPageView14d', 'viewAttributedSales14d', 'viewAttributedUnitsOrdered14d',
                  'viewAttributedOrdersNewToBrand14d', 'viewAttributedSalesNewToBrand14d',
                  'viewAttributedUnitsOrderedNewToBrand14d', 'attributedBrandedSearches14d',
-                 'viewAttributedBrandedSearches14d', 'matchedTarget']
+                 'viewAttributedBrandedSearches14d']
             ),
             "segment": "matchedTarget"
         }

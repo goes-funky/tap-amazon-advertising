@@ -27,18 +27,6 @@
         "string"
       ]
     },
-    "attributedKindleEditionNormalizedPagesRead14d": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
-    "attributedKindleEditionNormalizedPagesRoyalties14d": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
     "attributedSales14dOtherSKU": {
       "type": [
         "null",

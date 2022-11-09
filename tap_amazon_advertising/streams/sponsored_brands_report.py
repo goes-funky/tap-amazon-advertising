@@ -345,3 +345,87 @@ class SponsoredBrandsVideoReportTargets(BaseSponsoredBrandsReportStream):
             ),
             "creativeType": "all"
         }
+
+
+class SponsoredBrandsReportPlacement(BaseSponsoredBrandsReportStream):
+    TABLE = "sponsored_brands_report_placement"
+    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+
+    @property
+    def recordType(self):
+        return "campaigns"
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "segment": "placement",
+            "metrics": ",".join(['applicableBudgetRuleId', 'applicableBudgetRuleName', 'attributedConversions14d',
+                                 'attributedConversions14dSameSKU', 'attributedDetailPageViewsClicks14d',
+                                 'attributedOrderRateNewToBrand14d', 'attributedOrdersNewToBrand14d',
+                                 'attributedOrdersNewToBrandPercentage14d', 'attributedSales14d',
+                                 'attributedSales14dSameSKU', 'attributedSalesNewToBrand14d',
+                                 'attributedSalesNewToBrandPercentage14d', 'attributedUnitsOrderedNewToBrand14d',
+                                 'attributedUnitsOrderedNewToBrandPercentage14d', 'campaignBudget',
+                                 'campaignBudgetType', 'campaignId', 'campaignName', 'campaignRuleBasedBudget',
+                                 'campaignStatus', 'clicks', 'cost', 'dpv14d', 'impressions', 'placement',
+                                 'unitsSold14d', 'attributedBrandedSearches14d']
+                                )
+        }
+
+
+class SponsoredBrandsVideoReportPlacement(BaseSponsoredBrandsReportStream):
+    TABLE = "sponsored_brands_video_report_placement"
+    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+
+    @property
+    def recordType(self):
+        return "campaigns"
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "metrics": ",".join(
+                ['attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedSales14d',
+                 'attributedSales14dSameSKU', 'campaignBudget', 'campaignBudgetType', 'campaignId', 'campaignName',
+                 'campaignStatus', 'clicks', 'cost', 'impressions', 'placement', 'vctr', 'video5SecondViewRate',
+                 'video5SecondViews', 'videoCompleteViews', 'videoFirstQuartileViews', 'videoMidpointViews',
+                 'videoThirdQuartileViews', 'videoUnmutes', 'viewableImpressions', 'vtr', 'dpv14d',
+                 'attributedDetailPageViewsClicks14d', 'attributedOrderRateNewToBrand14d',
+                 'attributedOrdersNewToBrand14d', 'attributedOrdersNewToBrandPercentage14d',
+                 'attributedSalesNewToBrand14d', 'attributedSalesNewToBrandPercentage14d',
+                 'attributedUnitsOrderedNewToBrand14d', 'attributedUnitsOrderedNewToBrandPercentage14d',
+                 'attributedBrandedSearches14d']
+            ),
+            "creativeType": "all"
+        }
+
+
+class SponsoredBrandsReportAds(BaseSponsoredBrandsReportStream):
+    TABLE = "sponsored_brands_report_ads"
+    KEY_PROPERTIES = ['adId', 'day', 'profileId']
+
+    @property
+    def recordType(self):
+        return "ads"
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "segment": "placement",
+            "metrics": ",".join(
+                ['adGroupId', 'adGroupName', 'adId', 'applicableBudgetRuleId', 'applicableBudgetRuleName',
+                 'attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedDetailPageViewsClicks14d',
+                 'attributedOrderRateNewToBrand14d', 'attributedOrdersNewToBrand14d',
+                 'attributedOrdersNewToBrandPercentage14d', 'attributedSales14d', 'attributedSales14dSameSKU',
+                 'attributedSalesNewToBrand14d', 'attributedSalesNewToBrandPercentage14d',
+                 'attributedUnitsOrderedNewToBrand14d', 'attributedUnitsOrderedNewToBrandPercentage14d',
+                 'campaignBudget', 'campaignBudgetType', 'campaignId', 'campaignName', 'campaignRuleBasedBudget',
+                 'campaignStatus', 'clicks', 'cost', 'dpv14d', 'impressions', 'unitsSold14d', 'vctr',
+                 'video5SecondViewRate', 'video5SecondViews', 'videoCompleteViews', 'videoFirstQuartileViews',
+                 'videoMidpointViews', 'videoThirdQuartileViews', 'videoUnmutes', 'viewableImpressions', 'vtr',
+                 'attributedBrandedSearches14d']
+
+                ),
+            "creativeType": "all"
+        }
+

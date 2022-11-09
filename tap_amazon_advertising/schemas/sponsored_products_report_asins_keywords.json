@@ -146,24 +146,6 @@
         "null",
         "string"
       ]
-    },
-    "targetingExpression": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "targetingText": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "targetingType": {
-      "type": [
-        "null",
-        "string"
-      ]
     }
   }
 }

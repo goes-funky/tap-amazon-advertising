@@ -335,8 +335,8 @@ class __SponsoredProductsReportASIN(BaseSponsoredProductsReportStream):
                                  'attributedUnitsOrdered1d', 'attributedUnitsOrdered1dOtherSKU',
                                  'attributedUnitsOrdered30d', 'attributedUnitsOrdered30dOtherSKU',
                                  'attributedUnitsOrdered7d', 'attributedUnitsOrdered7dOtherSKU', 'campaignId',
-                                 'campaignName', 'currency', 'keywordText', 'matchType', 'otherAsin',
-                                 'sku', 'targetingExpression', 'targetingText', 'targetingType']
+                                 'campaignName', 'currency', 'matchType', 'otherAsin',
+                                 'sku']
                                 )
         }
 
@@ -347,7 +347,7 @@ class SponsoredProductsReportASINKeyword(__SponsoredProductsReportASIN):
 
     def get_body(self, day):
         b = super().get_body(day)
-        b["metrics"] = b["metrics"] + ",keywordId"
+        b["metrics"] = b["metrics"] + ",keywordId,keywordText"
 
         return b
 
@@ -358,5 +358,5 @@ class SponsoredProductsReportASINTarget(__SponsoredProductsReportASIN):
 
     def get_body(self, day):
         b = super().get_body(day)
-        b["metrics"] = b["metrics"] + ",targetId"
+        b["metrics"] = b["metrics"] + ",targetId,targetingExpression,targetingText,targetingType"
         return b

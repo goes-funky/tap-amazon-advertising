@@ -281,6 +281,7 @@ class SponsoredDisplaysReportMatchedTargetCampaignsStream(BaseSponsoredDisplaysR
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
             "metrics": ",".join(
                 ['attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedConversions1d',
                  'attributedConversions1dSameSKU', 'attributedConversions30d', 'attributedConversions30dSameSKU',
@@ -311,6 +312,7 @@ class SponsoredDisplaysReportMatchedTargetAdGroupsStream(BaseSponsoredDisplaysRe
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
             "metrics": ",".join(
                 ['adGroupId', 'adGroupName', 'attributedConversions14d', 'attributedConversions14dSameSKU',
                  'attributedConversions1d', 'attributedConversions1dSameSKU', 'attributedConversions30d',
@@ -341,6 +343,7 @@ class SponsoredDisplaysReportMatchedTargetTargetsStream(BaseSponsoredDisplaysRep
     def get_body(self, day):
         return {
             "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
             "metrics": ",".join(
                 ['adGroupId', 'adGroupName', 'attributedConversions14d', 'attributedConversions14dSameSKU',
                  'attributedConversions1d', 'attributedConversions1dSameSKU', 'attributedConversions30d',

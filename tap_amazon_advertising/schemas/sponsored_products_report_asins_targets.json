@@ -117,12 +117,6 @@
         "string"
       ]
     },
-    "keywordText": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "matchType": {
       "type": [
         "null",

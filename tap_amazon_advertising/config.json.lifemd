@@ -1,0 +1,29 @@
+{
+  "parent_id": "1570574507929807|https://advertising-api.amazon.com",
+  "fileId": "184/3f097ac2-371a-40d1-bcf7-9bdbe0a38334/3e4b22f6-5c0a-4722-a15e-927467974b68",
+  "import": "ad_group_biddable_keywords",
+  "columns": [
+    "bid",
+    "state",
+    "adGroupId",
+    "keywordId",
+    "matchType",
+    "profileId",
+    "campaignId",
+    "keywordText",
+    "creationDate",
+    "servingStatus",
+    "lastUpdatedDate"
+  ],
+  "start_date": "2020-01-01T01:42:42Z",
+  "client_id": "amzn1.application-oa2-client.89fb1684939249e28fd02ecd338706d9",
+  "client_secret": "87103e289c4afc68b9f55ad48c37ed890650b03ae4bdf4d2ef65c74e21118cba",
+  "redirect_url": "https://app.datos-d.com/api/1/sources/oauth/callback",
+  "token_type": "bearer",
+  "access_token": "Atza|IwEBIIoLSOIx40YyUtaHb-emmUrz4AmyRxUo5c08PwbK7Ecyu9qKxHTNpUFJKCD6zybQI9u3Iy4Z9a3yGzwNe-TLhZQqFOqQ4jVSwi_SbIiRkh-lPWr-YxwjXKULU4nW6DQf2m55QDwyCQhQbCkOTc-gh1CEj0-WMb05pKucrkUEhdcmxbhkDhF-7GyTWm_TkMpAbX4muhXvKHyt4ifiqQH2uuHKFLOhXQvPaDdVpfgpjy6i02WGH03hm-AOFj7FbbiHtzUNooY_XC-GjdibsDAhSX2nap7W7elz1jpBtxSHth8_1L1DAhfaYHv211V90J2i2vDTAuia3Dy4dffu744--A9ppmUYwlFqAW2FsqtfOAaiNVObPPkpVXuxFZuHzFbgzYZo_uCbQzsGWJWh5ZiGOjWOEJsf-fB7SNKTNuZKm-3e2g",
+  "refresh_token": "Atzr|IwEBIN0s1JQHx5KEnfEslgflrLrG4JqA1DFXzIawz1lnLb8ejZy9jtB0PrLGWCsB6wSJJO8yKbTyO9PJ0kYWAse-Zt2WEEERP3e4R7WjwemKxdKzRDsZIQvOCj1gLCt5PNBvwBLprhU_Dr09j_afXTMEGex_J2nnjBVxtgkuK_JI8Lp-_99UKJHVpV_SMP6QxYNrM5vPMBMVCAP6z1HNL5F8DeCk73EQF_bKyFA2AlrQEayTRjflHiJ6uTtxM5b1txhtjFldvodPuPttXcelj5YQyCeG0yJgBFZbVewKz0WgpEB1z2e76kW-6RbkLi5dETDID2IEBu1v-8zpvNOaUcOXYfigEYmrGlqjDU1m235jquZ8Tx9lln6o_wPCNV7wk_8BL--8KEFziZddhwPk_93wT_8PciNFWQjiRBTnBIlNA-mQ5UEc9ry0QjbJHhC3SDIwlxpzZItjeTm0PRUxZ-foG0B5itwFk_ojVPTmLzcJ-WWikg",
+  "expires": 1639667067,
+  "profile_id": "1570574507929807",
+  "base_url": "https://advertising-api.amazon.com",
+  "redirect_uri": "https://app.datos-d.com/api/1/sources/oauth/callback"
+}

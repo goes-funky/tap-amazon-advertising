@@ -1,0 +1,120 @@
+{
+    "type": "object",
+    "properties": {
+        "profileId": {
+            "description": "The ID of the profile",
+            "type": "integer"
+        },
+        "day": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "keywordId": {
+            "type": ["null", "string"]
+        },
+        "attributedSalesNewToBrand14d": {
+            "type": ["null", "string"]
+        },
+        "cost": {
+            "type": ["null", "number"]
+        },
+        "adGroupId": {
+            "type": ["null", "string"]
+        },
+        "adGroupName": {
+            "type": ["null", "string"]
+        },
+        "campaignId": {
+            "type": ["null", "string"]
+        },
+        "matchType": {
+            "type": ["null", "string"]
+        },
+        "impressions": {
+            "type": ["null", "number"]
+        },
+        "clicks": {
+            "type": ["null", "number"]
+        },
+        "keywordText": {
+            "type": ["null", "string"]
+        },
+        "campaignName": {
+            "type": ["null", "string"]
+        },
+        "campaignBudget": {
+            "type": ["null", "number"]
+        },
+        "campaignBudgetType": {
+            "type": ["null", "string"]
+        },
+        "campaignStatus": {
+            "type": ["null", "string"]
+        },
+        "attributedSales14dSameSKU": {
+            "type": ["null", "number"]
+        },
+        "attributedOrdersNewToBrandPercentage14d": {
+            "type": ["null", "number"]
+        },
+        "attributedOrderRateNewToBrand14d": {
+            "type": ["null", "number"]
+        },
+        "attributedConversions14d": {
+            "type": ["null", "number"]
+        },
+        "attributedConversions14dSameSKU": {
+            "type": ["null", "number"]
+        },
+        "attributedOrdersNewToBrand14d": {
+            "type": ["null", "number"]
+        },
+        "attributedUnitsOrderedNewToBrand14d": {
+            "type": ["null", "number"]
+        },
+        "attributedSales14d": {
+            "type": ["null", "number"]
+        },
+        "attributedSalesNewToBrandPercentage14d": {
+            "type": ["null", "number"]
+        },
+        "attributedUnitsOrderedNewToBrandPercentage14d": {
+            "type": ["null", "number"]
+        },
+        "applicableBudgetRuleId": {
+            "type": ["null", "number"]
+        },
+        "applicableBudgetRuleName": {
+            "type": ["null", "string"]
+        },
+        "attributedDetailPageViewsClicks14d": {
+            "type": ["null", "number"]
+        },
+        "campaignRuleBasedBudget": {
+            "type": ["null", "number"]
+        },
+        "dpv14d": {
+            "type": ["null", "number"]
+        },
+        "keywordBid": {
+            "type": ["null", "number"]
+        },
+        "keywordStatus": {
+            "type": ["null", "string"]
+        },
+        "searchTermImpressionRank": {
+            "type": ["null", "number"]
+        },
+        "searchTermImpressionShare": {
+            "type": ["null", "number"]
+        },
+        "unitsSold14d": {
+            "type": ["null", "number"]
+        },
+        "attributedBrandedSearches14d": {
+            "type": ["null", "number"]
+        }
+    }
+}
+
+

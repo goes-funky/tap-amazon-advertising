@@ -337,7 +337,8 @@ class __SponsoredProductsReportASIN(BaseSponsoredProductsReportStream):
                                  'attributedUnitsOrdered7d', 'attributedUnitsOrdered7dOtherSKU', 'campaignId',
                                  'campaignName', 'currency', 'matchType', 'otherAsin',
                                  'sku']
-                                )
+                                ),
+            "campaignType": "sponsoredProducts"
         }
 
 

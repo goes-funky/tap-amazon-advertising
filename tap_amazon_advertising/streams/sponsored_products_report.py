@@ -288,3 +288,75 @@ class SponsoredProductsReportSearchTermsTargetStream(SponsoredProductsReportTarg
         body = super().get_body(day)
         body["segment"] = "query"
         return body
+
+
+class SponsoredProductsReportPlacement(BaseSponsoredProductsReportStream):
+    TABLE = "sponsored_products_report_placement"
+    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+
+    @property
+    def recordType(self):
+        return "campaigns"
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "segment": "placement",
+            "metrics": ",".join(['applicableBudgetRuleId', 'applicableBudgetRuleName', 'attributedConversions14d',
+                                 'attributedConversions14dSameSKU', 'attributedConversions1d',
+                                 'attributedConversions1dSameSKU', 'attributedConversions30d',
+                                 'attributedConversions30dSameSKU', 'attributedConversions7d',
+                                 'attributedConversions7dSameSKU', 'attributedSales14d',
+                                 'attributedSales14dSameSKU', 'attributedSales1d', 'attributedSales1dSameSKU',
+                                 'attributedSales30d', 'attributedSales30dSameSKU', 'attributedSales7d',
+                                 'attributedSales7dSameSKU', 'attributedUnitsOrdered14d',
+                                 'attributedUnitsOrdered14dSameSKU', 'attributedUnitsOrdered1d',
+                                 'attributedUnitsOrdered1dSameSKU', 'attributedUnitsOrdered30d',
+                                 'attributedUnitsOrdered30dSameSKU', 'attributedUnitsOrdered7d',
+                                 'attributedUnitsOrdered7dSameSKU', 'bidPlus', 'campaignBudget',
+                                 'campaignBudgetType', 'campaignId', 'campaignName', 'campaignRuleBasedBudget',
+                                 'campaignStatus', 'clicks', 'cost', 'currency', 'impressions']
+                                )
+        }
+
+
+class __SponsoredProductsReportASIN(BaseSponsoredProductsReportStream):
+
+    @property
+    def recordType(self):
+        return "asins"
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "metrics": ",".join(['adGroupId', 'adGroupName', 'asin', 'attributedSales14dOtherSKU',
+                                 'attributedSales1dOtherSKU', 'attributedSales30dOtherSKU', 'attributedSales7dOtherSKU',
+                                 'attributedUnitsOrdered14d', 'attributedUnitsOrdered14dOtherSKU',
+                                 'attributedUnitsOrdered1d', 'attributedUnitsOrdered1dOtherSKU',
+                                 'attributedUnitsOrdered30d', 'attributedUnitsOrdered30dOtherSKU',
+                                 'attributedUnitsOrdered7d', 'attributedUnitsOrdered7dOtherSKU', 'campaignId',
+                                 'campaignName', 'currency', 'matchType', 'otherAsin',
+                                 'sku']
+                                )
+        }
+
+
+class SponsoredProductsReportASINKeyword(__SponsoredProductsReportASIN):
+    TABLE = "sponsored_products_report_asins_keywords"
+    KEY_PROPERTIES = ['asin', 'day', 'profileId']
+
+    def get_body(self, day):
+        b = super().get_body(day)
+        b["metrics"] = b["metrics"] + ",keywordId,keywordText"
+
+        return b
+
+
+class SponsoredProductsReportASINTarget(__SponsoredProductsReportASIN):
+    TABLE = "sponsored_products_report_asins_targets"
+    KEY_PROPERTIES = ['asin', 'day', 'profileId']
+
+    def get_body(self, day):
+        b = super().get_body(day)
+        b["metrics"] = b["metrics"] + ",targetId,targetingExpression,targetingText,targetingType"
+        return b

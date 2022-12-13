@@ -13,7 +13,7 @@ authors = ["y42 developers <info@y42.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-tap-framework = "0.0.4"
+tap-framework = "0.1.1"
 
 [tool.poetry.dev-dependencies]
 integrations-testing-framework = {git = "http://github.com/goes-funky/integrations-testing-framework.git"}

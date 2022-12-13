@@ -244,7 +244,123 @@ class SponsoredDisplaysReportTargetsStream(BaseSponsoredDisplaysReportStream):
                  'viewAttributedUnitsOrdered14d', 'viewAttributedOrdersNewToBrand14d',
                  'viewAttributedSalesNewToBrand14d', 'viewAttributedUnitsOrderedNewToBrand14d',
                  'attributedBrandedSearches14d', 'viewAttributedBrandedSearches14d']
-                )
+            )
+        }
+
+    @property
+    def recordType(self):
+        return "targets"
+
+
+class SponsoredDisplaysReportASINStream(BaseSponsoredDisplaysReportStream):
+    TABLE = 'sponsored_displays_report_asins'
+    KEY_PROPERTIES = ['asin', 'day', 'profileId']
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
+            "metrics": ",".join(
+                ['adGroupId', 'adGroupName', 'asin', 'attributedSales14dOtherSKU', 'attributedSales1dOtherSKU',
+                 'attributedSales30dOtherSKU', 'attributedSales7dOtherSKU', 'attributedUnitsOrdered14dOtherSKU',
+                 'attributedUnitsOrdered1dOtherSKU', 'attributedUnitsOrdered30dOtherSKU',
+                 'attributedUnitsOrdered7dOtherSKU', 'campaignId', 'campaignName', 'currency', 'otherAsin', 'sku']
+
+            )
+        }
+
+    @property
+    def recordType(self):
+        return "asins"
+
+
+class SponsoredDisplaysReportMatchedTargetCampaignsStream(BaseSponsoredDisplaysReportStream):
+    TABLE = 'sponsored_displays_report_matched_target_campaigns'
+    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
+            "metrics": ",".join(
+                ['attributedConversions14d', 'attributedConversions14dSameSKU', 'attributedConversions1d',
+                 'attributedConversions1dSameSKU', 'attributedConversions30d', 'attributedConversions30dSameSKU',
+                 'attributedConversions7d', 'attributedConversions7dSameSKU', 'attributedDetailPageView14d',
+                 'attributedOrdersNewToBrand14d', 'attributedSales14d', 'attributedSales14dSameSKU',
+                 'attributedSales1d', 'attributedSales1dSameSKU', 'attributedSales30d', 'attributedSales30dSameSKU',
+                 'attributedSales7d', 'attributedSales7dSameSKU', 'attributedSalesNewToBrand14d',
+                 'attributedUnitsOrdered14d', 'attributedUnitsOrdered1d', 'attributedUnitsOrdered30d',
+                 'attributedUnitsOrdered7d', 'attributedUnitsOrderedNewToBrand14d', 'campaignBudget', 'campaignId',
+                 'campaignName', 'campaignStatus', 'clicks', 'cost', 'costType', 'currency', 'impressions',
+                 'viewAttributedConversions14d', 'viewAttributedDetailPageView14d', 'viewAttributedSales14d',
+                 'viewAttributedUnitsOrdered14d', 'viewImpressions', 'viewAttributedOrdersNewToBrand14d',
+                 'viewAttributedSalesNewToBrand14d', 'viewAttributedUnitsOrderedNewToBrand14d',
+                 'attributedBrandedSearches14d', 'viewAttributedBrandedSearches14d']
+            ),
+            "segment": "matchedTarget"
+        }
+
+    @property
+    def recordType(self):
+        return "campaigns"
+
+
+class SponsoredDisplaysReportMatchedTargetAdGroupsStream(BaseSponsoredDisplaysReportStream):
+    TABLE = 'sponsored_displays_report_matched_target_ad_groups'
+    KEY_PROPERTIES = ['adGroupId', 'day', 'profileId']
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
+            "metrics": ",".join(
+                ['adGroupId', 'adGroupName', 'attributedConversions14d', 'attributedConversions14dSameSKU',
+                 'attributedConversions1d', 'attributedConversions1dSameSKU', 'attributedConversions30d',
+                 'attributedConversions30dSameSKU', 'attributedConversions7d', 'attributedConversions7dSameSKU',
+                 'attributedDetailPageView14d', 'attributedOrdersNewToBrand14d', 'attributedSales14d',
+                 'attributedSales14dSameSKU', 'attributedSales1d', 'attributedSales1dSameSKU', 'attributedSales30d',
+                 'attributedSales30dSameSKU', 'attributedSales7dSameSKU', 'attributedUnitsOrdered14d',
+                 'attributedUnitsOrdered1d', 'attributedUnitsOrdered30d', 'attributedUnitsOrdered7d',
+                 'attributedUnitsOrderedNewToBrand14d', 'bidOptimization', 'campaignId', 'campaignName', 'clicks',
+                 'cost', 'currency', 'impressions', 'viewAttributedConversions14d', 'viewAttributedDetailPageView14d',
+                 'viewAttributedSales14d', 'viewAttributedUnitsOrdered14d', 'viewImpressions',
+                 'viewAttributedOrdersNewToBrand14d', 'viewAttributedSalesNewToBrand14d',
+                 'viewAttributedUnitsOrderedNewToBrand14d', 'attributedBrandedSearches14d',
+                 'viewAttributedBrandedSearches14d']
+            ),
+            "segment": "matchedTarget"
+        }
+
+    @property
+    def recordType(self):
+        return "adGroups"
+
+
+class SponsoredDisplaysReportMatchedTargetTargetsStream(BaseSponsoredDisplaysReportStream):
+    TABLE = 'sponsored_displays_report_matched_target_targets'
+    KEY_PROPERTIES = ['targetId', 'day', 'profileId']
+
+    def get_body(self, day):
+        return {
+            "reportDate": day.strftime('%Y%m%d'),
+            "tactic": "T00030",
+            "metrics": ",".join(
+                ['adGroupId', 'adGroupName', 'attributedConversions14d', 'attributedConversions14dSameSKU',
+                 'attributedConversions1d', 'attributedConversions1dSameSKU', 'attributedConversions30d',
+                 'attributedConversions30dSameSKU', 'attributedConversions7d', 'attributedConversions7dSameSKU',
+                 'attributedDetailPageView14d', 'attributedOrdersNewToBrand14d', 'attributedSales14d',
+                 'attributedSales14dSameSKU', 'attributedSales1d', 'attributedSales1dSameSKU', 'attributedSales30d',
+                 'attributedSales30dSameSKU', 'attributedSales7d', 'attributedSales7dSameSKU',
+                 'attributedSalesNewToBrand14d', 'attributedUnitsOrdered14d', 'attributedUnitsOrdered1d',
+                 'attributedUnitsOrdered30d', 'attributedUnitsOrdered7d', 'attributedUnitsOrderedNewToBrand14d',
+                 'campaignId', 'campaignName', 'clicks', 'cost', 'currency', 'impressions', 'targetId',
+                 'targetingExpression', 'targetingText', 'targetingType', 'viewAttributedConversions14d',
+                 'viewAttributedDetailPageView14d', 'viewAttributedSales14d', 'viewAttributedUnitsOrdered14d',
+                 'viewAttributedOrdersNewToBrand14d', 'viewAttributedSalesNewToBrand14d',
+                 'viewAttributedUnitsOrderedNewToBrand14d', 'attributedBrandedSearches14d',
+                 'viewAttributedBrandedSearches14d']
+            ),
+            "segment": "matchedTarget"
         }
 
     @property

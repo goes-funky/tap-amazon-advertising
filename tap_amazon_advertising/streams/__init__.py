@@ -5,7 +5,9 @@ from tap_amazon_advertising.streams.sponsored_displays import SponsoredDisplaysA
 from tap_amazon_advertising.streams.sponsored_displays_report import SponsoredDisplaysReportAdGroupsStream, \
     SponsoredDisplaysReportCampaignsStream, SponsoredDisplaysReportProductAdsStream, \
     SponsoredDisplaysReportProductAdsAudiencesStream, SponsoredDisplaysReportCampaignsAudiencesStream, \
-    SponsoredDisplaysReportAdGroupsAudiencesStream, SponsoredDisplaysReportTargetsStream
+    SponsoredDisplaysReportAdGroupsAudiencesStream, SponsoredDisplaysReportTargetsStream, \
+    SponsoredDisplaysReportASINStream, SponsoredDisplaysReportMatchedTargetCampaignsStream, \
+    SponsoredDisplaysReportMatchedTargetAdGroupsStream, SponsoredDisplaysReportMatchedTargetTargetsStream
 from tap_amazon_advertising.streams.sponsored_products_campaigns import SponsoredProductsCampaignsStream
 from tap_amazon_advertising.streams.sponsored_brands_campaigns import SponsoredBrandsCampaignsStream
 from tap_amazon_advertising.streams.ad_groups import AdGroupsStream
@@ -18,7 +20,8 @@ from tap_amazon_advertising.streams.sponsored_products_report import SponsoredPr
     SponsoredProductsReportCampaignsStream, \
     SponsoredProductsReportAdGroupsStream, \
     SponsoredProductsReportKeywordsStream, SponsoredProductsReportTargetStream, \
-    SponsoredProductsReportSearchTermsKeywordStream, SponsoredProductsReportSearchTermsTargetStream
+    SponsoredProductsReportSearchTermsKeywordStream, SponsoredProductsReportSearchTermsTargetStream, \
+    SponsoredProductsReportPlacement, SponsoredProductsReportASINTarget, SponsoredProductsReportASINKeyword
 
 from tap_amazon_advertising.streams.sponsored_brands_report import SponsoredBrandsReportKeywordsStream, \
     SponsoredBrandsReportCampaignsStream, \
@@ -26,7 +29,9 @@ from tap_amazon_advertising.streams.sponsored_brands_report import SponsoredBran
     SponsoredBrandsVideoReportCampaignsStream, \
     SponsoredBrandsVideoReportKeywordsStream, \
     SponsoredBrandsVideoReportAdGroupsStream, SponsoredBrandsReportSearchTermsStream, \
-    SponsoredBrandsVideoReportSearchTermsStream, SponsoredBrandsReportTargets, SponsoredBrandsVideoReportTargets
+    SponsoredBrandsVideoReportSearchTermsStream, SponsoredBrandsReportTargets, SponsoredBrandsVideoReportTargets, \
+    SponsoredBrandsVideoReportPlacement, SponsoredBrandsReportPlacement, \
+    SponsoredBrandsReportAds
 
 AVAILABLE_STREAMS = [
     ProfilesStream,
@@ -47,6 +52,9 @@ AVAILABLE_STREAMS = [
     SponsoredProductsReportTargetStream,
     SponsoredProductsReportSearchTermsKeywordStream,
     SponsoredProductsReportSearchTermsTargetStream,
+    SponsoredProductsReportPlacement,
+    SponsoredProductsReportASINKeyword,
+    SponsoredProductsReportASINTarget,
 
     # SB Reports
     SponsoredBrandsReportKeywordsStream,
@@ -54,13 +62,16 @@ AVAILABLE_STREAMS = [
     SponsoredBrandsReportAdGroupsStream,
     SponsoredBrandsReportSearchTermsStream,
     SponsoredBrandsReportTargets,
-    SponsoredBrandsVideoReportTargets,
+    SponsoredBrandsReportPlacement,
+    SponsoredBrandsReportAds,
 
     # SB video Reports
     SponsoredBrandsVideoReportKeywordsStream,
     SponsoredBrandsVideoReportCampaignsStream,
     SponsoredBrandsVideoReportAdGroupsStream,
     SponsoredBrandsVideoReportSearchTermsStream,
+    SponsoredBrandsVideoReportTargets,
+    SponsoredBrandsVideoReportPlacement,
 
     # SD Streams
     SponsoredDisplaysAdGroupsStream,
@@ -74,7 +85,11 @@ AVAILABLE_STREAMS = [
     SponsoredDisplaysReportAdGroupsAudiencesStream,
     SponsoredDisplaysReportCampaignsAudiencesStream,
     SponsoredDisplaysReportProductAdsAudiencesStream,
-    SponsoredDisplaysReportTargetsStream
+    SponsoredDisplaysReportTargetsStream,
+    SponsoredDisplaysReportASINStream,
+    SponsoredDisplaysReportMatchedTargetCampaignsStream,
+    SponsoredDisplaysReportMatchedTargetAdGroupsStream,
+    SponsoredDisplaysReportMatchedTargetTargetsStream
 
 ]
 

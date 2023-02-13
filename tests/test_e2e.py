@@ -17,7 +17,7 @@ RESPONSES_DIR = 'tests/responses/'
 RECORDING_CONF = {
     'filter_req_data': ['client_id', 'client_secret', 'refresh_token'],
     'filter_req_headers': ['Authorization', 'Amazon-Advertising-API-ClientId', 'Amazon-Advertising-API-Scope'],
-    'filter_resp_data_except': ['id', 'scope', 'status', 'statusDetails', 'location', 'last_record', 'reportId']
+    'filter_resp_data_except': ['id', 'scope', 'status', 'statusDetails', 'last_record', 'reportId']
 }
 
 

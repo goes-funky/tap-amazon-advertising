@@ -175,7 +175,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:03 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263115.26c2232a-08a6-48e7-8c2a-7e9f7575da20-1663447317664.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204203Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1eed3f4d80076e79e403a7c13b70d0b519610b46cbb7c2d4edf9902b11aafb65
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -205,7 +205,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263115.26c2232a-08a6-48e7-8c2a-7e9f7575da20-1663447317664.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204203Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1eed3f4d80076e79e403a7c13b70d0b519610b46cbb7c2d4edf9902b11aafb65
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -359,7 +359,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:11 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326311d.7f51beab-c2f5-483b-b5cd-ef8102c8236b-1663447326233.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204211Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=106a5215581728ed10e7059de7538b28daf983ce59e2aafccb65653a903f4a6a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -389,7 +389,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326311d.7f51beab-c2f5-483b-b5cd-ef8102c8236b-1663447326233.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204211Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=106a5215581728ed10e7059de7538b28daf983ce59e2aafccb65653a903f4a6a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -543,7 +543,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:20 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263126.863e1a3a-72df-425f-b9c0-65dc43c31958-1663447334705.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2b9806d996b39f0eb77432cd9821725ff52922c7dfbd57e28ff382a5b1a081fa
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -573,7 +573,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263126.863e1a3a-72df-425f-b9c0-65dc43c31958-1663447334705.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2b9806d996b39f0eb77432cd9821725ff52922c7dfbd57e28ff382a5b1a081fa
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -727,7 +727,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:28 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326312f.05d6c2fd-49a7-4443-b126-b1e272e9087f-1663447343382.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cc2dcf805b820c1d8fbd2739ae261c262fbff0ef459a004ec671f031e5e1fc07
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -757,7 +757,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326312f.05d6c2fd-49a7-4443-b126-b1e272e9087f-1663447343382.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cc2dcf805b820c1d8fbd2739ae261c262fbff0ef459a004ec671f031e5e1fc07
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -911,7 +911,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:37 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263137.a5c45ac9-ec1c-4762-bbad-8fffb2bef950-1663447352163.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204237Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a36d40c6aaca6fda5c00bed806f54e03117a544409dd1d249a86b099b0bb313
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -941,7 +941,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263137.a5c45ac9-ec1c-4762-bbad-8fffb2bef950-1663447352163.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204237Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a36d40c6aaca6fda5c00bed806f54e03117a544409dd1d249a86b099b0bb313
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -1095,7 +1095,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:45 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326313f.352426e8-57c8-4dc5-82d9-ef9074973bd1-1663447360462.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204245Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=77686d436e2ed778ed7184c0b4349846490031bb056dab55d133ecc9bf586fe9
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -1125,7 +1125,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326313f.352426e8-57c8-4dc5-82d9-ef9074973bd1-1663447360462.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204245Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=77686d436e2ed778ed7184c0b4349846490031bb056dab55d133ecc9bf586fe9
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -1279,7 +1279,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:42:54 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263148.dd2ddc0f-b043-43b5-96fd-5379ec53fa66-1663447368588.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204254Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a92af29090f3e4833f49b4f97b59be903ffd7fe4e01b1b3718acf80a324acbbe
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -1309,7 +1309,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263148.dd2ddc0f-b043-43b5-96fd-5379ec53fa66-1663447368588.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204254Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a92af29090f3e4833f49b4f97b59be903ffd7fe4e01b1b3718acf80a324acbbe
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -1463,7 +1463,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:02 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263150.185c4100-5e7b-4b69-b35d-fc4dd41a7331-1663447377687.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204302Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6230807c86123ed812d7362a19b1bf0ed9b6de12ba5eca4fa6631a60c4ca7e5d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -1493,7 +1493,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263150.185c4100-5e7b-4b69-b35d-fc4dd41a7331-1663447377687.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204302Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6230807c86123ed812d7362a19b1bf0ed9b6de12ba5eca4fa6631a60c4ca7e5d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -1647,7 +1647,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:11 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263159.5bee5bc1-fc98-4022-ae61-c00d0b5c08d4-1663447385758.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204311Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d5f0b67d13fae48a4181c223eca6d3618bdf0ff9a20068d31e02b4fae766b3b6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -1677,7 +1677,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263159.5bee5bc1-fc98-4022-ae61-c00d0b5c08d4-1663447385758.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204311Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d5f0b67d13fae48a4181c223eca6d3618bdf0ff9a20068d31e02b4fae766b3b6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -1831,7 +1831,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:19 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263161.c79d0058-1ad4-414a-ab3e-bc0e660c2c4b-1663447394272.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204319Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=328d76bf314d6575550663a34f0ef3e1dd183f29665bb4f1f68444e67f09ef3c
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -1861,7 +1861,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263161.c79d0058-1ad4-414a-ab3e-bc0e660c2c4b-1663447394272.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204319Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=328d76bf314d6575550663a34f0ef3e1dd183f29665bb4f1f68444e67f09ef3c
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2015,7 +2015,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:28 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326316a.d80b4246-c6f3-4d91-9621-74ce2a94323a-1663447402757.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f166489c0c39ce76bef0db067a5d7eb83d7d9d10be8756c5a0085a5436fe68f9
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2045,7 +2045,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326316a.d80b4246-c6f3-4d91-9621-74ce2a94323a-1663447402757.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204328Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f166489c0c39ce76bef0db067a5d7eb83d7d9d10be8756c5a0085a5436fe68f9
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2199,7 +2199,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:37 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263173.5493a8db-0b1f-42f9-adee-0c14e4c4caf9-1663447411526.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204337Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=18b58ecaf1a0c5daba075613cd7b5b7eafc8c6413c712411e5da6cca355f9289
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2229,7 +2229,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263173.5493a8db-0b1f-42f9-adee-0c14e4c4caf9-1663447411526.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204337Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=18b58ecaf1a0c5daba075613cd7b5b7eafc8c6413c712411e5da6cca355f9289
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2383,7 +2383,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:45 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326317b.d310d0c2-d8ef-4080-87ed-1ff3bdad5081-1663447419763.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204345Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=edefef014537b269ec2218c0d029408d3d3f0619da43531c15b737155330c503
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2413,7 +2413,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326317b.d310d0c2-d8ef-4080-87ed-1ff3bdad5081-1663447419763.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204345Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=edefef014537b269ec2218c0d029408d3d3f0619da43531c15b737155330c503
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2567,7 +2567,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:43:54 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263184.b04e7704-0ff6-4455-b5aa-aa736d48c88d-1663447428891.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=592f1ac23e1dd8bcdc805f36493fda423b30bdd51c6dea582289670546438c4f
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2597,7 +2597,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263184.b04e7704-0ff6-4455-b5aa-aa736d48c88d-1663447428891.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=592f1ac23e1dd8bcdc805f36493fda423b30bdd51c6dea582289670546438c4f
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2751,7 +2751,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:03 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326318c.70e1b57a-bda4-4d5c-b9d4-c494374962a4-1663447437414.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204403Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d717c6dcb2b1b591a7e15322b70b4ffa70362bbd36c047e9f4c2022e557abb68
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2781,7 +2781,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326318c.70e1b57a-bda4-4d5c-b9d4-c494374962a4-1663447437414.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204403Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d717c6dcb2b1b591a7e15322b70b4ffa70362bbd36c047e9f4c2022e557abb68
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -2935,7 +2935,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:11 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263195.dcc72c0c-0449-4fa8-9d93-603b0b3c3663-1663447445990.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204411Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=343efd2c5c1a172b96e3303bfcca07f6aa8a27266aded0c2972bb0261765d891
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -2965,7 +2965,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263195.dcc72c0c-0449-4fa8-9d93-603b0b3c3663-1663447445990.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204411Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=343efd2c5c1a172b96e3303bfcca07f6aa8a27266aded0c2972bb0261765d891
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -3119,7 +3119,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:20 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326319e.2f9a296d-5507-42b4-885b-c928d04aac8f-1663447454623.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204420Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2df7962ad6378272cdbdd88e019534edec6fbd2b764ee56a07daf33398fe21e2
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -3149,7 +3149,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326319e.2f9a296d-5507-42b4-885b-c928d04aac8f-1663447454623.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204420Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2df7962ad6378272cdbdd88e019534edec6fbd2b764ee56a07daf33398fe21e2
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -3303,7 +3303,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:29 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631a7.ac2c2536-b607-4a33-8485-ccea027829ee-1663447463519.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204429Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4aa4ea58c560b4241e633198121cc37589869bbc7c1e0dfb9b7b00d7a03fe207
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -3333,7 +3333,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631a7.ac2c2536-b607-4a33-8485-ccea027829ee-1663447463519.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204429Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4aa4ea58c560b4241e633198121cc37589869bbc7c1e0dfb9b7b00d7a03fe207
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -3487,7 +3487,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:37 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631af.6f1c1e1d-c985-4e76-bd30-194c51582b27-1663447472130.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204437Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=964837a90d95a015483e3687e69302ce2f499fb2f08823d5c939eb7910b9dc7c
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -3517,7 +3517,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631af.6f1c1e1d-c985-4e76-bd30-194c51582b27-1663447472130.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204437Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=964837a90d95a015483e3687e69302ce2f499fb2f08823d5c939eb7910b9dc7c
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -3671,7 +3671,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:46 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631b8.b847ab99-0773-4939-a19f-c7e8ee56fb1f-1663447480894.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204446Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d9a71732947d81ff9a330fd0e7129f4154a5f70425465dc169524db137c0b04a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -3701,7 +3701,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631b8.b847ab99-0773-4939-a19f-c7e8ee56fb1f-1663447480894.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204446Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d9a71732947d81ff9a330fd0e7129f4154a5f70425465dc169524db137c0b04a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -3855,7 +3855,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:44:55 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631c1.a8be4647-9520-40ed-b0fe-efcc0b4e93af-1663447489589.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204455Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=994621f9ff873d663b5b8aeb01df5704fa31be08a409b541ad5c5a198038a217
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -3885,7 +3885,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631c1.a8be4647-9520-40ed-b0fe-efcc0b4e93af-1663447489589.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204455Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=994621f9ff873d663b5b8aeb01df5704fa31be08a409b541ad5c5a198038a217
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4039,7 +4039,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:03 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631c9.ade3b277-95f6-4797-98d8-84d50cbd98c3-1663447497920.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204503Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5bff6416cbea5f7fecf6a5ced5dea84e8d544bf5b75cd0de6dccd4ac364905ca
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4069,7 +4069,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631c9.ade3b277-95f6-4797-98d8-84d50cbd98c3-1663447497920.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204503Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5bff6416cbea5f7fecf6a5ced5dea84e8d544bf5b75cd0de6dccd4ac364905ca
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4223,7 +4223,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:12 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631d2.43007979-aea9-418a-9a69-5bb2dc870bf2-1663447506460.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204512Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=43a92eaa7eeb9724c787d4e49223be2e1b94208f9556f45ef727b0a0406ba05d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4253,7 +4253,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631d2.43007979-aea9-418a-9a69-5bb2dc870bf2-1663447506460.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204512Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=43a92eaa7eeb9724c787d4e49223be2e1b94208f9556f45ef727b0a0406ba05d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4407,7 +4407,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:21 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631da.df3f4f0f-1810-447e-b942-d700c540f153-1663447515073.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204521Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7e9eafa5a5041a3b94f371c4bfe14dc715f128be57074303b4f5f546ccc7bfd5
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4437,7 +4437,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631da.df3f4f0f-1810-447e-b942-d700c540f153-1663447515073.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204521Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7e9eafa5a5041a3b94f371c4bfe14dc715f128be57074303b4f5f546ccc7bfd5
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4591,7 +4591,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:29 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631e3.b1bd1abb-9051-424a-8b00-2ee9b0142b6f-1663447524120.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=342dabdaa3e4df68e55f2dac71c85005c199769577aa55d7dbe6638dccd6c936
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4621,7 +4621,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631e3.b1bd1abb-9051-424a-8b00-2ee9b0142b6f-1663447524120.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204529Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=342dabdaa3e4df68e55f2dac71c85005c199769577aa55d7dbe6638dccd6c936
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4775,7 +4775,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:38 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631ec.fdaa945d-bde6-4e84-9cfe-d7fa7c764b50-1663447532718.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204538Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6ded52918330d4cf12feb46b11c39da6ab511767c03e2dd8b8d2dbcd4f14e0ad
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4805,7 +4805,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631ec.fdaa945d-bde6-4e84-9cfe-d7fa7c764b50-1663447532718.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204538Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6ded52918330d4cf12feb46b11c39da6ab511767c03e2dd8b8d2dbcd4f14e0ad
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -4959,7 +4959,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:47 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631f5.598dbb82-952b-4baa-b847-9929c7a7f44e-1663447541866.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204547Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=62f767a648568d519d5972f9fa868b567997817b49e56b36f655d9398bae7f69
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -4989,7 +4989,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631f5.598dbb82-952b-4baa-b847-9929c7a7f44e-1663447541866.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204547Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=62f767a648568d519d5972f9fa868b567997817b49e56b36f655d9398bae7f69
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -5143,7 +5143,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:45:56 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631fe.c7851708-9c39-483f-a3a7-ed7fe685f88e-1663447551228.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204556Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=da18ed84429237b2eb771ca1864c179c7f9c35cd0bf961af7a84f92cb4dbee67
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -5173,7 +5173,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632631fe.c7851708-9c39-483f-a3a7-ed7fe685f88e-1663447551228.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204556Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=da18ed84429237b2eb771ca1864c179c7f9c35cd0bf961af7a84f92cb4dbee67
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -5327,7 +5327,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:05 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263207.53ca2452-aab9-4517-89db-2d1e490aaeeb-1663447561677.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204605Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=417efaf7c1af39e4e5058eb397eac1a624206277b0c16975db09246f21c3a336
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -5357,7 +5357,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263207.53ca2452-aab9-4517-89db-2d1e490aaeeb-1663447561677.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204605Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=417efaf7c1af39e4e5058eb397eac1a624206277b0c16975db09246f21c3a336
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -5511,7 +5511,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:14 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263210.68c91761-cba6-40c8-b7f2-8166a2dcc14f-1663447568394.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204614Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f75b0bb95a1c61a7be4f9abadb36f0507735bb89200e123d7c442ba09b578298
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -5541,7 +5541,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263210.68c91761-cba6-40c8-b7f2-8166a2dcc14f-1663447568394.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204614Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f75b0bb95a1c61a7be4f9abadb36f0507735bb89200e123d7c442ba09b578298
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -5695,7 +5695,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:22 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263218.0a101bc2-a4d6-4798-be0b-23376121efbc-1663447576992.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204622Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=03cba8d1e654af528ad628caa319b8f56e116a060c9896132a2bc5fcb99a9156
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -5725,7 +5725,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263218.0a101bc2-a4d6-4798-be0b-23376121efbc-1663447576992.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204622Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=03cba8d1e654af528ad628caa319b8f56e116a060c9896132a2bc5fcb99a9156
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -5879,7 +5879,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:31 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263221.dab30e4e-c0e9-41c9-85c3-1bf536928e94-1663447585490.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204631Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=dda841d0627db99445f6fa7ef94ded3e5caeed2c62b3b5500893ba16fd772c43
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -5909,7 +5909,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263221.dab30e4e-c0e9-41c9-85c3-1bf536928e94-1663447585490.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204631Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=dda841d0627db99445f6fa7ef94ded3e5caeed2c62b3b5500893ba16fd772c43
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6063,7 +6063,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:39 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263229.49fb7c12-00d1-48f4-a90c-fa8800f82429-1663447594194.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204639Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=64efaa82c661d24db71e4c7c6bc0034dcd144cfac545e42a1c00539055496550
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -6093,7 +6093,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263229.49fb7c12-00d1-48f4-a90c-fa8800f82429-1663447594194.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204639Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=64efaa82c661d24db71e4c7c6bc0034dcd144cfac545e42a1c00539055496550
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6247,7 +6247,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:48 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263232.1f9ab8e6-ef66-49fe-afdb-83dac33b5b57-1663447603080.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0cba7adf3e96c97766d996560e71c662148df87950a066a4cb204ced48490853
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -6277,7 +6277,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263232.1f9ab8e6-ef66-49fe-afdb-83dac33b5b57-1663447603080.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0cba7adf3e96c97766d996560e71c662148df87950a066a4cb204ced48490853
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6431,7 +6431,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:46:57 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326323b.ed719caf-8e27-4ae3-ade5-97e5b1f7376b-1663447611688.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204657Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=489e07afb29ffec11d73187129683f782871b437cefe05e8d9ee071cfffd9266
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -6461,7 +6461,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326323b.ed719caf-8e27-4ae3-ade5-97e5b1f7376b-1663447611688.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204657Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=489e07afb29ffec11d73187129683f782871b437cefe05e8d9ee071cfffd9266
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6615,7 +6615,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:47:06 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263244.8a30443d-44c9-4816-abd5-91cc3f1b0491-1663447620261.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204706Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bbec33a14078f9f2360077d5c7be88624db2dff5f6f1a4eb4cec8f087c496ce0
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -6645,7 +6645,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263244.8a30443d-44c9-4816-abd5-91cc3f1b0491-1663447620261.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204706Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bbec33a14078f9f2360077d5c7be88624db2dff5f6f1a4eb4cec8f087c496ce0
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6799,7 +6799,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:47:15 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326324d.e953bd58-a326-4c5a-a1a8-c4ff93e1f6fc-1663447629329.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204715Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f06355e90063e022be3005c2e840644a10c0d63deadf47e4f0cfc3317bacf804
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -6829,7 +6829,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326324d.e953bd58-a326-4c5a-a1a8-c4ff93e1f6fc-1663447629329.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204715Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f06355e90063e022be3005c2e840644a10c0d63deadf47e4f0cfc3317bacf804
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -6983,7 +6983,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:47:23 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263255.96016527-6096-4011-9a7f-3294570ac545-1663447637976.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8e2e41e79176b05582e339667cd13facccbac5f4853f7894f459513e1c551dfd
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -7013,7 +7013,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263255.96016527-6096-4011-9a7f-3294570ac545-1663447637976.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8e2e41e79176b05582e339667cd13facccbac5f4853f7894f459513e1c551dfd
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -7167,7 +7167,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:47:32 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326325e.b4d9312c-c3c5-4da6-a230-d44a4a1fc490-1663447646917.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204732Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f0ee2d2c49e9bae843ba41e18dbf3ea7adf4deedb8b458f9fc42c7a6a4d2a1c4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -7197,7 +7197,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326325e.b4d9312c-c3c5-4da6-a230-d44a4a1fc490-1663447646917.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204732Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f0ee2d2c49e9bae843ba41e18dbf3ea7adf4deedb8b458f9fc42c7a6a4d2a1c4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -7351,7 +7351,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:47:41 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263267.b9caf3ff-facf-4a15-bd14-b9ab17caf52a-1663447655485.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204741Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b990d01fca648915aa839f59d12e11611555e1466fdaa791444998e6f4763ca6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -7381,7 +7381,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263267.b9caf3ff-facf-4a15-bd14-b9ab17caf52a-1663447655485.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T204741Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b990d01fca648915aa839f59d12e11611555e1466fdaa791444998e6f4763ca6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -8455,7 +8455,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:00 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263270.2a0b43b2-20a6-47af-9a83-585814849e6d-1663447798060.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7bfe06439773fa6fa63b4323af416af8dc72003f59b1f5c726f1c36219c1f5e1
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -8485,7 +8485,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263270.2a0b43b2-20a6-47af-9a83-585814849e6d-1663447798060.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7bfe06439773fa6fa63b4323af416af8dc72003f59b1f5c726f1c36219c1f5e1
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -8639,7 +8639,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:09 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632632fa.70595bbe-ed5c-441d-837c-b8bc21a9629f-1663447805356.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c2d349b97552043ff5e2f29e8dce9b7ba1b92b90d3ca39e2681f975df9308f96
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -8669,7 +8669,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.632632fa.70595bbe-ed5c-441d-837c-b8bc21a9629f-1663447805356.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c2d349b97552043ff5e2f29e8dce9b7ba1b92b90d3ca39e2681f975df9308f96
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -8823,7 +8823,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:18 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263303.7bd1d730-88fc-4c86-9934-9ef963d39e35-1663447812168.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205018Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5c08978ebabc18e2e44da5f0d53051d21462599287fd6660d5c360887cca6ff5
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -8853,7 +8853,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263303.7bd1d730-88fc-4c86-9934-9ef963d39e35-1663447812168.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205018Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5c08978ebabc18e2e44da5f0d53051d21462599287fd6660d5c360887cca6ff5
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9007,7 +9007,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:26 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326330c.bfa65a3a-7815-45ab-b771-154958158474-1663447821085.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205026Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=76fba74dda8b1ba4eaea09e60336ce8c82aafea3129f0304050e8fe21314814d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9037,7 +9037,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326330c.bfa65a3a-7815-45ab-b771-154958158474-1663447821085.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205026Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=76fba74dda8b1ba4eaea09e60336ce8c82aafea3129f0304050e8fe21314814d
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9191,7 +9191,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:35 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263315.164f9bd4-9af7-4af5-9c59-9ad6ffce8cba-1663447830282.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b4baaec2e513dc36308fccdab060e35ab906a67664f779da6c49faa81ad3c270
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9221,7 +9221,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263315.164f9bd4-9af7-4af5-9c59-9ad6ffce8cba-1663447830282.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b4baaec2e513dc36308fccdab060e35ab906a67664f779da6c49faa81ad3c270
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9375,7 +9375,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:44 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326331e.216c0be3-20f2-4b46-9b97-d50ffe9db23f-1663447838722.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205044Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=34d8b722f9a46136ac640a1c35464d4ab8c38afe911121ee8410c091b0765de1
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9405,7 +9405,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326331e.216c0be3-20f2-4b46-9b97-d50ffe9db23f-1663447838722.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205044Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=34d8b722f9a46136ac640a1c35464d4ab8c38afe911121ee8410c091b0765de1
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9559,7 +9559,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:50:53 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263327.8dd4721e-0793-4279-93d6-5c0dc8df6bdf-1663447847468.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=537657c01fa9ca8b7fde6d5b9fa67ba54a712aa835d096fa4c723f46eaab9ba7
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9589,7 +9589,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263327.8dd4721e-0793-4279-93d6-5c0dc8df6bdf-1663447847468.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=537657c01fa9ca8b7fde6d5b9fa67ba54a712aa835d096fa4c723f46eaab9ba7
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9743,7 +9743,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:01 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326332f.489d8825-9e3f-494a-b091-c013f3e66637-1663447856310.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205101Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=012947290658b78f9f7dc0ce94c8312ca95e9fa86ee97134fc24dc8f706be525
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9773,7 +9773,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326332f.489d8825-9e3f-494a-b091-c013f3e66637-1663447856310.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205101Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=012947290658b78f9f7dc0ce94c8312ca95e9fa86ee97134fc24dc8f706be525
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -9927,7 +9927,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:10 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263338.ccbb158d-dc49-4c75-8c8f-8d599344da48-1663447865148.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205110Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5880da681bd8b89d48876edd379539e96c19af0505c1d87f1aa708ed0b97ea64
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -9957,7 +9957,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263338.ccbb158d-dc49-4c75-8c8f-8d599344da48-1663447865148.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205110Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5880da681bd8b89d48876edd379539e96c19af0505c1d87f1aa708ed0b97ea64
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -10111,7 +10111,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:19 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263341.1bf9c491-2c7c-4f22-8fd2-890517ec5ee8-1663447873562.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c51140f8fa1bc1cf3043864000bd2390c3df98c291459777fd353cd3cc6eca32
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -10141,7 +10141,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263341.1bf9c491-2c7c-4f22-8fd2-890517ec5ee8-1663447873562.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c51140f8fa1bc1cf3043864000bd2390c3df98c291459777fd353cd3cc6eca32
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -10295,7 +10295,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:29 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326334a.e610c79a-8306-4bc5-8156-fe04603e570f-1663447883346.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f415ae971da76af9f7020bfbe0336fa120e1207be48af1ef7eca20c78ed44749
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -10325,7 +10325,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326334a.e610c79a-8306-4bc5-8156-fe04603e570f-1663447883346.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f415ae971da76af9f7020bfbe0336fa120e1207be48af1ef7eca20c78ed44749
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -10479,7 +10479,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:38 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263354.57c35ca1-abad-41d5-a464-6c1a1fd91f66-1663447892557.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205138Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f45c25d0511796695d0e15876d41a47ec4b6cc8d7dfba04383e36753f8eed604
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -10509,7 +10509,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263354.57c35ca1-abad-41d5-a464-6c1a1fd91f66-1663447892557.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205138Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f45c25d0511796695d0e15876d41a47ec4b6cc8d7dfba04383e36753f8eed604
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -10663,7 +10663,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:47 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326335d.498a2446-4a85-47af-8d93-b3ce114cbcf0-1663447902140.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205147Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e2ef575bac9e3a29293ff2dc4911e102918030c4e8601389434e9c530241d220
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -10693,7 +10693,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326335d.498a2446-4a85-47af-8d93-b3ce114cbcf0-1663447902140.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205147Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e2ef575bac9e3a29293ff2dc4911e102918030c4e8601389434e9c530241d220
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -10847,7 +10847,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:51:56 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263365.6ca451b7-2bec-4b7d-82be-29f5cad2692d-1663447910168.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205156Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a6defa0c963be6630a054a23d076265fd75eaee251f72e70a627125080d885d6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -10877,7 +10877,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263365.6ca451b7-2bec-4b7d-82be-29f5cad2692d-1663447910168.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205156Z&X-Amz-SignedHeaders=host&X-Amz-Expires=29&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a6defa0c963be6630a054a23d076265fd75eaee251f72e70a627125080d885d6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11031,7 +11031,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:05 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326336f.81db7805-3772-4b69-b662-1cd59906c631-1663447920339.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205205Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7a32144f4aa03e0a5d18bc4df0b175c0b5017cf436866904d3c388cfe9fe5d2e
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11061,7 +11061,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326336f.81db7805-3772-4b69-b662-1cd59906c631-1663447920339.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205205Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7a32144f4aa03e0a5d18bc4df0b175c0b5017cf436866904d3c388cfe9fe5d2e
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11215,7 +11215,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:14 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263378.2a687815-fc6c-435a-8b2d-e4e5f1597c00-1663447928738.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205214Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b88b8d1590133e447815af05a53230300e7589178e96ec16f293e76bf75bece4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11245,7 +11245,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263378.2a687815-fc6c-435a-8b2d-e4e5f1597c00-1663447928738.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205214Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b88b8d1590133e447815af05a53230300e7589178e96ec16f293e76bf75bece4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11399,7 +11399,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:22 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263380.e4326f74-a6d0-4af5-bfac-9d8b6393af78-1663447937047.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205222Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7527c3f7fab0ca05424dc38c35ca58353968acefeb03a05260ad20dc78aa44c4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11429,7 +11429,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263380.e4326f74-a6d0-4af5-bfac-9d8b6393af78-1663447937047.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205222Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7527c3f7fab0ca05424dc38c35ca58353968acefeb03a05260ad20dc78aa44c4
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11583,7 +11583,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:31 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263389.7080871c-1f78-40cf-9e20-c74442b1dc59-1663447945871.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205231Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f4385be4d4fab3fa62084fc4767a0f709a944c71469d0f78d550819e1c0ddd7a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11613,7 +11613,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263389.7080871c-1f78-40cf-9e20-c74442b1dc59-1663447945871.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205231Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f4385be4d4fab3fa62084fc4767a0f709a944c71469d0f78d550819e1c0ddd7a
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11767,7 +11767,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:41 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263393.ab944c00-1cba-458b-91ff-b37117158ce3-1663447955429.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=22fe2aba6e350f75d8d089f589c6a68f9ac03d2468baac1a039751a8f4d82077
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11797,7 +11797,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.63263393.ab944c00-1cba-458b-91ff-b37117158ce3-1663447955429.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=22fe2aba6e350f75d8d089f589c6a68f9ac03d2468baac1a039751a8f4d82077
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |
@@ -11951,7 +11951,7 @@ interactions:
       Date:
       - Sat, 17 Sep 2022 20:52:50 GMT
       Location:
-      - https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326339c.940080a7-31dc-4c93-8097-6dd70a4fd8fe-1663447964523.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205250Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f63ba4460bdac244a4d58221e2f9ee8b2e7f0dc7c51ac7e1dcafa473ca1f1ae6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
       Server:
       - Server
       Vary:
@@ -11981,7 +11981,7 @@ interactions:
       User-Agent:
       - python-requests/2.18.4
     method: GET
-    uri: https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/sd-atvpdkikx0der-a3dk7u31py9toe-report-campaigns-amzn1.sdapi.v1.p1.6326339c.940080a7-31dc-4c93-8097-6dd70a4fd8fe-1663447964523.json.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220917T205250Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Credential=AKIA3P6LC7AREO72ADZQ%2F20220917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f63ba4460bdac244a4d58221e2f9ee8b2e7f0dc7c51ac7e1dcafa473ca1f1ae6
+https://amazon-advertising-api-reports-prod-usamazon.s3.amazonaws.com/test
   response:
     body:
       string: !!binary |

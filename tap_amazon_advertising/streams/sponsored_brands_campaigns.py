@@ -13,7 +13,7 @@ class SponsoredBrandsCampaignsStream(PaginatedStream):
 
     @property
     def api_path(self):
-        return '/v2/hsa/campaigns'
+        return '/sb/campaigns'
 
     def get_stream_data(self, result):
         return [

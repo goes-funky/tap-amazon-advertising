@@ -21,79 +21,79 @@
         "string"
       ]
     },
-    "asin": {
+    "advertisedAsin": {
       "type": [
         "null",
         "string"
       ]
     },
-    "attributedSales14dOtherSKU": {
+    "salesOtherSku14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales1dOtherSKU": {
+    "salesOtherSku1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales30dOtherSKU": {
+    "salesOtherSku30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales7dOtherSKU": {
+    "salesOtherSku7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered14d": {
+    "unitsSoldClicks14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered14dOtherSKU": {
+    "unitsSoldOtherSku14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered1d": {
+    "unitsSoldClicks1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered1dOtherSKU": {
+    "unitsSoldOtherSku1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered30d": {
+    "unitsSoldClicks30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered30dOtherSKU": {
+    "unitsSoldOtherSku30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered7d": {
+    "unitsSoldClicks7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered7dOtherSKU": {
+    "unitsSoldOtherSku7d": {
       "type": [
         "null",
         "number"
@@ -111,7 +111,7 @@
         "string"
       ]
     },
-    "currency": {
+    "campaignBudgetCurrencyCode": {
       "type": [
         "null",
         "string"
@@ -123,7 +123,7 @@
         "number"
       ]
     },
-    "keywordText": {
+    "keyword": {
       "type": [
         "null",
         "string"
@@ -135,13 +135,13 @@
         "string"
       ]
     },
-    "otherAsin": {
+    "purchasedAsin": {
       "type": [
         "null",
         "string"
       ]
     },
-    "sku": {
+    "advertisedSku": {
       "type": [
         "null",
         "string"

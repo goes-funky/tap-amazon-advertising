@@ -9,139 +9,139 @@
       "type": "string",
       "format": "date-time"
     },
-    "applicableBudgetRuleId": {
+    "campaignApplicableBudgetRuleId": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions1d": {
+    "purchases1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions1dSameSKU": {
+    "purchasesSameSku1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions30d": {
+    "purchases30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions30dSameSKU": {
+    "purchasesSameSku30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions7d": {
+    "purchases7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedConversions7dSameSKU": {
+    "purchasesSameSku7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales14d": {
+    "sales14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales14dSameSKU": {
+    "attributedSalesSameSku14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales1d": {
+    "sales1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales1dSameSKU": {
+    "attributedSalesSameSku1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales30d": {
+    "sales30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales30dSameSKU": {
+    "attributedSalesSameSku30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales7d": {
+    "sales7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedSales7dSameSKU": {
+    "attributedSalesSameSku7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered14d": {
+    "unitsSoldClicks14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered14dSameSKU": {
+    "unitsSoldSameSku14d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered1d": {
+    "unitsSoldClicks1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered1dSameSKU": {
+    "unitsSoldSameSku1d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered30d": {
+    "unitsSoldClicks30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered30dSameSKU": {
+    "unitsSoldSameSku30d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered7d": {
+    "unitsSoldClicks7d": {
       "type": [
         "null",
         "number"
       ]
     },
-    "attributedUnitsOrdered7dSameSKU": {
+    "unitsSoldSameSku7d": {
       "type": [
         "null",
         "number"
@@ -153,7 +153,7 @@
         "number"
       ]
     },
-    "campaignBudget": {
+    "campaignBudgetAmount": {
       "type": [
         "null",
         "string"
@@ -177,7 +177,7 @@
         "string"
       ]
     },
-    "campaignRuleBasedBudget": {
+    "campaignRuleBasedBudgetAmount": {
       "type": [
         "null",
         "number"
@@ -201,7 +201,7 @@
         "number"
       ]
     },
-    "currency": {
+    "campaignBudgetCurrencyCode": {
       "type": [
         "null",
         "string"

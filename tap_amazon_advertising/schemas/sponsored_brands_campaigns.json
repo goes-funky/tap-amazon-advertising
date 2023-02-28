@@ -18,6 +18,10 @@
             "description": "The name of the campaign",
             "type": "string"
         },
+        "tags": {
+            "description": "A list of advertiser-specified custom identifiers for the campaign",
+            "type": "string"
+        },
         "targetingType": {
             "description": "Differentiates between a keyword-targeted and automatically targeted campaign",
             "type": "string",
@@ -94,6 +98,66 @@
         },
         "spendingPolicy": {
             "type": ["null", "string"]
+        },
+        "brandEntityId": {
+            "type": ["null", "string"]
+        },
+        "landingPage": {
+            "title": "LandingPage",
+            "type": "object",
+            "properties": {
+                "pageType": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            }
+        },
+        "bidMultiplier": {
+            "type": ["null", "number"]
+        },
+        "bidAdjustments": {
+            "title": "bidAdjustments",
+            "type": "object",
+            "description": "List of bid adjustment for each placement group. BidMultiplier cannot be specified when bidAdjustments presents. Not supported for video campaigns",
+            "properties": {
+                "bidAdjustmentPredicate": {
+                    "type": "string"
+                },
+                "bidAdjustmentPercent": {
+                    "type": "number"
+                }
+            }
+        },
+        "adFormat": {
+            "description": "The type of ad format.",
+            "type": ["null", "string"]
+        },
+        "creative": {
+            "title": "creative",
+            "type": "object",
+            "description": "Note that the values of each field in this object are immutable for an existing campaign.",
+            "properties": {
+                "brandName": {
+                    "type": "string"
+                },
+                "brandLogoAssetID": {
+                    "type": "string"
+                },
+                "brandLogoUrl": {
+                    "type": "string"
+                },
+                "headline": {
+                    "type": "string"
+                },
+                "asins": {
+                    "type": "string"
+                },
+                "shouldOptimizeAsins": {
+                    "type": "boolean"
+                }
+            }
         }
     }
 }

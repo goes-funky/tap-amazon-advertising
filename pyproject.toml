@@ -7,14 +7,14 @@ extend-ignore = "E203"
 
 [tool.poetry]
 name = "tap-amazon-advertising"
-version = "0.0.1"
+version = "0.0.2"
 description = "Amazon-Advertising tap"
 authors = ["y42 developers <info@y42.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
 tap-framework = {git = "https://github.com/airton-muskollari/tap-framework.git"}
-
+pandas = "1.2.0"
 [tool.poetry.dev-dependencies]
 integrations-testing-framework = {git = "http://github.com/goes-funky/integrations-testing-framework.git"}
 pytest = "^7.1.2"

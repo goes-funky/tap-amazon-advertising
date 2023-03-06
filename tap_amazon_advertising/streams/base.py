@@ -254,6 +254,6 @@ class ReportStreamV3(BaseStream):
         selected_columns = []
         for metadata in self.catalog.metadata:
             if "selected" in metadata['metadata'] and metadata['metadata']['selected'] == True:
-                if len(metadata['breadcrumb'])!=0:
+                if len(metadata['breadcrumb']) != 0:
                     selected_columns.append(metadata['breadcrumb'][1])
         return selected_columns

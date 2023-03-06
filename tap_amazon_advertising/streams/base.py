@@ -203,6 +203,10 @@ class ReportStreamV3(BaseStream):
                 timeout = (1 + i) * 5
                 LOGGER.info("In state: {}, Sleeping for {} seconds".format(status, timeout))
                 time.sleep(timeout)
+            elif status == "PROCESSING":
+                timeout = (1 + i) * 5
+                LOGGER.info("In state: {}, Sleeping for {} seconds".format(status, timeout))
+                time.sleep(timeout)
             else:
                 LOGGER.info("In state: {}, Unable to sync from {} for interval "
                             "{}-{}-- moving on".format(status, url, date_start, date_end))

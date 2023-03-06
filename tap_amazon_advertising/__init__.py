@@ -22,10 +22,14 @@ def do_discover(args):
 
     catalog = []
     report_streams = [
-        "sponsored_products_report_product_ads",
         "sponsored_products_report_campaigns",
+        "sponsored_products_report_campaign_placement"
         "sponsored_products_report_ad_groups",
-        "sponsored_products_report_keywords",
+        "sponsored_products_report_advertiser"
+        "sponsored_products_report_targets_expressions",
+        "sponsored_products_report_targets_keywords",
+        "sponsored_products_report_search_terms_keywords",
+        "sponsored_products_report_search_terms_expressions",
         "sponsored_brands_report_keywords",
         "sponsored_brands_report_campaigns",
         "sponsored_brands_report_ad_groups",

@@ -1,0 +1,108 @@
+{
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": ["null","string"],
+      "format": "date"
+    },
+    "unitsSoldClicks1d": {
+      "type": ["null","integer"]
+    },
+    "sales7d": {
+      "type": ["null","integer"]
+    },
+    "kindleEditionNormalizedPagesRoyalties14d": {
+      "type": ["null","integer"]
+    },
+    "advertisedSku": {
+      "type": ["null","string"]
+    },
+    "purchases7d": {
+      "type": ["null","integer"]
+    },
+    "unitsSoldClicks14d": {
+      "type": ["null","integer"]
+    },
+    "adGroupName": {
+      "type": ["null","string"]
+    },
+    "campaignId": {
+      "type": ["null","integer"]
+    },
+    "kindleEditionNormalizedPagesRead14d": {
+      "type": ["null","integer"]
+    },
+    "unitsSoldClicks30d": {
+      "type": ["null","integer"]
+    },
+    "campaignBudgetCurrencyCode": {
+      "type": ["null","string"]
+    },
+    "unitsSoldClicks7d": {
+      "type": ["null","integer"]
+    },
+    "sales1d": {
+      "type": ["null","integer"]
+    },
+    "adGroupId": {
+      "type": ["null","integer"]
+    },
+    "advertisedAsin": {
+      "type": ["null","string"]
+    },
+    "sales14d": {
+      "type": ["null","integer"]
+    },
+    "sales30d": {
+      "type": ["null","integer"]
+    },
+    "purchases14d": {
+      "type": ["null","integer"]
+    },
+    "purchases30d": {
+      "type": ["null","integer"]
+    },
+    "campaignName": {
+      "type": ["null","string"]
+    },
+    "keywordId": {
+      "type": ["null","integer"]
+    },
+    "keyword": {
+      "type": ["null","string"]
+    },
+    "keywordType": {
+      "type": ["null","string"]
+    },
+    "purchasedAsin": {
+      "type": ["null","string"]
+    },
+    "matchType": {
+      "type": ["null","string"]
+    },
+    "unitsSoldOtherSku1d": {
+      "type": ["null","integer"]
+    },
+    "unitsSoldOtherSku7d": {
+      "type": ["null","integer"]
+    },
+    "unitsSoldOtherSku14d": {
+      "type": ["null","integer"]
+    },
+    "unitsSoldOtherSku30d": {
+      "type": ["null","integer"]
+    },
+    "salesOtherSku1d": {
+      "type": ["null","number"]
+    },
+    "salesOtherSku7d": {
+      "type": ["null","number"]
+    },
+    "salesOtherSku14d": {
+      "type": ["null","number"]
+    },
+    "salesOtherSku30d": {
+      "type": ["null","number"]
+    }
+  }
+}

@@ -119,15 +119,24 @@
         },
         "bidAdjustments": {
             "title": "bidAdjustments",
-            "type": ["null","object"],
+            "type": ["null","array"],
             "description": "List of bid adjustment for each placement group. BidMultiplier cannot be specified when bidAdjustments presents. Not supported for video campaigns",
-            "properties": {
-                "bidAdjustmentPredicate": {
-                    "type":  ["null", "string"]
-                },
-                "bidAdjustmentPercent": {
-                    "type":  ["null", "number"]
-                }
+            "items": {
+                "type": ["null","object"],
+               "properties": {
+                   "bidAdjustmentPredicate": {
+                       "type": [
+                           "null",
+                           "string"
+                       ]
+                   },
+                   "bidAdjustmentPercent": {
+                       "type": [
+                           "null",
+                           "number"
+                       ]
+                   }
+               }
             }
         },
         "adFormat": {

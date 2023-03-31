@@ -1,4 +1,7 @@
 import math
+from dataclasses import asdict
+
+import pandas as pandas
 import pytz
 import singer
 import singer.utils
@@ -167,3 +170,90 @@ class ReportStream(BaseStream):
                                      'last_record', sync_date.isoformat())
             save_state(self.state)
         return self.state
+
+class ReportStreamV3(BaseStream):
+    selected_columns = []
+
+    def transform_record(self, record, inject_profile=True):
+        transformed = base.transform_record(self, record)
+        return transformed
+
+    def create_report(self, url, date_start, date_end):
+        body = self.get_body(date_start, date_end)
+
+        # Create a report
+        report = self.client.make_request(url, 'POST', body=asdict(body))
+        report_id = report['reportId']
+
+        # If we don't sleep here, then something funky happens and the API
+        # takes _significantly_ longer to return a SUCCESS status
+        time.sleep(3)
+        LOGGER.info("Polling")
+        report_url = '{}/reporting/reports/{}'.format(self.config["base_url"], report_id)
+
+        num_polls = 99
+        for i in range(num_polls):
+            poll = self.client.make_request(report_url, 'GET')
+            status = poll['status']
+            LOGGER.info("Poll {} of {}, status={}".format(i + 1, num_polls, status))
+
+            if status == 'COMPLETED':
+                return poll['url']
+            elif status == "PENDING":
+                timeout = (1 + i) * 5
+                LOGGER.info("In state: {}, Sleeping for {} seconds".format(status, timeout))
+                time.sleep(timeout)
+            elif status == "PROCESSING":
+                timeout = (1 + i) * 5
+                LOGGER.info("In state: {}, Sleeping for {} seconds".format(status, timeout))
+                time.sleep(timeout)
+            else:
+                LOGGER.info("In state: {}, Unable to sync from {} for interval "
+                            "{}-{}-- moving on".format(status, url, date_start, date_end))
+                exit(1)
+
+    def sync_data(self):
+        table = self.TABLE
+        LOGGER.info('Syncing data for entity {}'.format(table))
+        schema_dict = self.catalog.schema.to_dict()
+        sync_date = get_last_record_value_for_table(self.state, table)
+        if sync_date is None:
+            sync_date = get_config_start_date(self.config)
+        sync_date = sync_date - datetime.timedelta(days=5)
+        date_90_days_ago = datetime.date.today() - datetime.timedelta(days=90)
+        if sync_date < date_90_days_ago:
+            sync_date = date_90_days_ago
+        ranges = pandas.interval_range(start=pandas.to_datetime(sync_date), end=datetime.datetime.today(), freq='30D')
+        self.selected_columns = self.get_select_columns()
+        for dateRange in ranges:
+            date_start = dateRange.left.date()
+            date_end = dateRange.right.date()
+            LOGGER.info("Syncing {} for interval {}-{}".format(table, date_start, date_end))
+
+            url = self.get_url(self.api_path)
+            report_url = self.create_report(url, date_start, date_end)
+
+            if report_url is None:
+                break
+
+            result = self.client.download_gzip(report_url, auth_required=False)
+            data = self.get_stream_data(result, date_start)
+
+            for obj in data:
+                obj = singer.transform(obj, schema_dict)
+                singer.write_records(
+                    table,
+                    [obj])
+
+            self.state = incorporate(self.state, self.TABLE,
+                                     'last_record', date_end.isoformat())
+            save_state(self.state)
+        return self.state
+
+    def get_select_columns(self):
+        selected_columns = []
+        for metadata in self.catalog.metadata:
+            if "selected" in metadata['metadata'] and metadata['metadata']['selected'] == True:
+                if len(metadata['breadcrumb']) != 0:
+                    selected_columns.append(metadata['breadcrumb'][1])
+        return selected_columns

@@ -1,106 +1,144 @@
 {
-    "type": "object",
-    "properties": {
-        "profileId": {
-            "description": "The ID of the profile",
-            "type": "integer"
-        },
-        "day": {
-            "type": "string",
-            "format": "date-time"
-        },
-        "adId": {
-            "type": ["null", "string"]
-        },
-        "adGroupId": {
-            "type": ["null", "string"]
-        },
-        "campaignId": {
-            "type": ["null", "string"]
-        },
-        "asin": {
-            "type": ["null", "string"]
-        },
-        "sku": {
-            "type": ["null", "string"]
-        },
-        "currency": {
-            "type": ["null", "string"]
-        },
-        "adGroupName": {
-            "type": ["null", "string"]
-        },
-        "campaignName": {
-            "type": ["null", "string"]
-        },
-        "cost": {
-            "type": ["null", "number"]
-        },
-        "impressions": {
-            "type": ["null", "number"]
-        },
-        "clicks": {
-            "type": ["null", "number"]
-        },
-        "attributedSales7d": {
-            "type": ["null", "number"]
-        },
-        "attributedSales30d": {
-            "type": ["null", "number"]
-        },
-        "attributedUnitsOrdered30d": {
-            "type": ["null", "number"]
-        },
-        "attributedSales1d": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions1d": {
-            "type": ["null", "number"]
-        },
-        "attributedSales1dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions30d": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions7d": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions14d": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions7dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions1dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedUnitsOrdered7d": {
-            "type": ["null", "number"]
-        },
-        "attributedSales7dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedSales14dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedSales30dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedUnitsOrdered1d": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions30dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedConversions14dSameSKU": {
-            "type": ["null", "number"]
-        },
-        "attributedSales14d": {
-            "type": ["null", "number"]
-        },
-        "attributedUnitsOrdered14d": {
-            "type": ["null", "number"]
-        }
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "attributedSalesSameSku1d": {
+      "type": "integer"
+    },
+    "campaignBiddingStrategy": {
+      "type": "string"
+    },
+    "unitsSoldClicks1d": {
+      "type": "integer"
+    },
+    "attributedSalesSameSku7d": {
+      "type": "integer"
+    },
+    "adStatus": {
+      "type": "string"
+    },
+    "attributedSalesSameSku14d": {
+      "type": "integer"
+    },
+    "sales1d": {
+      "type": "integer"
+    },
+    "sales7d": {
+      "type": "integer"
+    },
+    "adGroupId": {
+      "type": "integer"
+    },
+    "campaignRuleBasedBudgetAmount": {
+      "type": ["null","string"]
+    },
+    "attributedSalesSameSku30d": {
+      "type": "integer"
+    },
+    "kindleEditionNormalizedPagesRoyalties14d": {
+      "type": "integer"
+    },
+    "purchasesSameSku14d": {
+      "type": "integer"
+    },
+    "spend": {
+      "type": "integer"
+    },
+    "purchasesSameSku1d": {
+      "type": "integer"
+    },
+    "campaignBudgetType": {
+      "type": "string"
+    },
+    "unitsSoldSameSku1d": {
+      "type": "integer"
+    },
+    "campaignStatus": {
+      "type": "string"
+    },
+    "purchases1d": {
+      "type": "integer"
+    },
+    "purchasesSameSku7d": {
+      "type": "integer"
+    },
+    "unitsSoldSameSku7d": {
+      "type": "integer"
+    },
+    "campaignBudgetAmount": {
+      "type": "integer"
+    },
+    "purchases7d": {
+      "type": "integer"
+    },
+    "unitsSoldSameSku30d": {
+      "type": "integer"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "costPerClick": {
+      "type": "string"
+    },
+    "unitsSoldClicks14d": {
+      "type": "integer"
+    },
+    "adGroupName": {
+      "type": "string"
+    },
+    "campaignId": {
+      "type": "integer"
+    },
+    "sales14d": {
+      "type": "integer"
+    },
+    "clickThroughRate": {
+      "type": "integer"
+    },
+    "sales30d": {
+      "type": "integer"
+    },
+    "impressions": {
+      "type": "integer"
+    },
+    "kindleEditionNormalizedPagesRead14d": {
+      "type": "integer"
+    },
+    "campaignApplicableBudgetRuleName": {
+      "type": ["null", "string"]
+    },
+    "purchasesSameSku30d": {
+      "type": "integer"
+    },
+    "purchases14d": {
+      "type": "integer"
+    },
+    "unitsSoldClicks30d": {
+      "type": "integer"
+    },
+    "campaignBudgetCurrencyCode": {
+      "type": "string"
+    },
+    "purchases30d": {
+      "type": "integer"
+    },
+    "campaignApplicableBudgetRuleId": {
+      "type": ["null","string"]
+    },
+    "clicks": {
+      "type": "integer"
+    },
+    "campaignName": {
+      "type": "string"
+    },
+    "unitsSoldSameSku14d": {
+      "type": "integer"
+    },
+    "unitsSoldClicks7d": {
+      "type": "integer"
     }
+  }
 }

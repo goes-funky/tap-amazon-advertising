@@ -1,12 +1,29 @@
-from tap_amazon_advertising.streams.base import ReportStream
+from dataclasses import dataclass
+
+from tap_amazon_advertising.streams.base import ReportStreamV3
 
 import singer
-import json
 
 LOGGER = singer.get_logger()  # noqa
+@dataclass
+class Configuration:
+    adProduct:str
+    groupBy:list
+    columns:list
+    reportTypeId:str
+    timeUnit:str
+    format:str
+    filters:list
+
+@dataclass
+class DataBody:
+    name:str
+    startDate:str
+    endDate:str
+    configuration:Configuration
 
 
-class BaseSponsoredProductsReportStream(ReportStream):
+class BaseSponsoredProductsReportStream(ReportStreamV3):
     API_METHOD = 'GET'
 
     @property
@@ -15,349 +32,164 @@ class BaseSponsoredProductsReportStream(ReportStream):
 
     @property
     def api_path(self):
-        return '/v2/sp/{}/report'.format(self.recordType)
+        return '/reporting/reports'
 
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join([
-                "campaignName",
-                "campaignId",
-                "adGroupName",
-                "adGroupId",
-                "impressions",
-                "clicks",
-                "cost",
-                "currency",
-                "asin",
-                "sku",
-                "attributedConversions1d",
-                "attributedConversions7d",
-                "attributedConversions14d",
-                "attributedConversions30d",
-                "attributedConversions1dSameSKU",
-                "attributedConversions7dSameSKU",
-                "attributedConversions14dSameSKU",
-                "attributedConversions30dSameSKU",
-                "attributedUnitsOrdered1d",
-                "attributedUnitsOrdered7d",
-                "attributedUnitsOrdered14d",
-                "attributedUnitsOrdered30d",
-                "attributedSales1d",
-                "attributedSales7d",
-                "attributedSales14d",
-                "attributedSales30d",
-                "attributedSales1dSameSKU",
-                "attributedSales7dSameSKU",
-                "attributedSales14dSameSKU",
-                "attributedSales30dSameSKU",
-            ])
+    def get_body(self, date_start, date_end):
+        dataConfiguration = Configuration(**{
+                "adProduct": "SPONSORED_PRODUCTS",
+                "groupBy": [],
+                "columns": self.selected_columns,
+                "reportTypeId": "spCampaigns",
+                "timeUnit": "DAILY",
+                "format": "GZIP_JSON",
+                "filters": []
+            })
+        dataBody = {
+            "name":"",
+            "startDate": date_start.strftime('%Y-%m-%d'),
+            "endDate": date_end.strftime('%Y-%m-%d'),
+            "configuration":dataConfiguration
         }
+        body = DataBody(**dataBody)
+        return body
 
     def get_stream_data(self, result, day):
-        for record in result:
-            record['day'] = day.isoformat()
-
         return [
             self.transform_record(record)
             for record in result
         ]
 
 
-class SponsoredProductsReportProductAdsStream(BaseSponsoredProductsReportStream):
-    TABLE = 'sponsored_products_report_product_ads'
-    KEY_PROPERTIES = ['adId', 'day', 'profileId']
-
-    @property
-    def recordType(self):
-        return "productAds"
-
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join([
-                "campaignName",
-                "campaignId",
-                "adGroupName",
-                "adGroupId",
-                "impressions",
-                "clicks",
-                "cost",
-                "currency",
-                "asin",
-                # "sku", # Not supported for vendors?
-                "attributedConversions1d",
-                "attributedConversions7d",
-                "attributedConversions14d",
-                "attributedConversions30d",
-                "attributedConversions1dSameSKU",
-                "attributedConversions7dSameSKU",
-                "attributedConversions14dSameSKU",
-                "attributedConversions30dSameSKU",
-                "attributedUnitsOrdered1d",
-                "attributedUnitsOrdered7d",
-                "attributedUnitsOrdered14d",
-                "attributedUnitsOrdered30d",
-                "attributedSales1d",
-                "attributedSales7d",
-                "attributedSales14d",
-                "attributedSales30d",
-                "attributedSales1dSameSKU",
-                "attributedSales7dSameSKU",
-                "attributedSales14dSameSKU",
-                "attributedSales30dSameSKU",
-            ])
-        }
-
-
 class SponsoredProductsReportCampaignsStream(BaseSponsoredProductsReportStream):
     TABLE = 'sponsored_products_report_campaigns'
-    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+    KEY_PROPERTIES = ['campaignId', 'date']
 
     @property
     def recordType(self):
         return "campaigns"
 
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join([
-                "bidPlus",
-                "campaignName",
-                "campaignId",
-                "campaignStatus",
-                "campaignBudget",
-                "impressions",
-                "clicks",
-                "cost",
-                "portfolioId",
-                "portfolioName",
-                "attributedConversions1d",
-                "attributedConversions7d",
-                "attributedConversions14d",
-                "attributedConversions30d",
-                "attributedConversions1dSameSKU",
-                "attributedConversions7dSameSKU",
-                "attributedConversions14dSameSKU",
-                "attributedConversions30dSameSKU",
-                "attributedUnitsOrdered1d",
-                "attributedUnitsOrdered7d",
-                "attributedUnitsOrdered14d",
-                "attributedUnitsOrdered30d",
-                "attributedSales1d",
-                "attributedSales7d",
-                "attributedSales14d",
-                "attributedSales30d",
-                "attributedSales1dSameSKU",
-                "attributedSales7dSameSKU",
-                "attributedSales14dSameSKU",
-                "attributedSales30dSameSKU",
-            ])
-        }
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start,date_end)
+        body.configuration.groupBy = ["campaign"]
+        return body
 
+class SponsoredProductsReportCampaignsPlacementStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_campaign_placement'
+    KEY_PROPERTIES = ['campaignId', 'date']
+
+    @property
+    def recordType(self):
+        return "campaigns"
+
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start,date_end)
+        body.configuration.groupBy = ["campaign","campaignPlacement"]
+        return body
 
 class SponsoredProductsReportAdGroupsStream(BaseSponsoredProductsReportStream):
     TABLE = 'sponsored_products_report_ad_groups'
-    KEY_PROPERTIES = ['adGroupId', 'day', 'profileId']
+    KEY_PROPERTIES = ['adGroupId', 'date']
 
     @property
     def recordType(self):
         return "adGroups"
 
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join([
-                "campaignName",
-                "campaignId",
-                "adGroupName",
-                "adGroupId",
-                "impressions",
-                "clicks",
-                "cost",
-                "attributedConversions1d",
-                "attributedConversions7d",
-                "attributedConversions14d",
-                "attributedConversions30d",
-                "attributedConversions1dSameSKU",
-                "attributedConversions7dSameSKU",
-                "attributedConversions14dSameSKU",
-                "attributedConversions30dSameSKU",
-                "attributedUnitsOrdered1d",
-                "attributedUnitsOrdered7d",
-                "attributedUnitsOrdered14d",
-                "attributedUnitsOrdered30d",
-                "attributedSales1d",
-                "attributedSales7d",
-                "attributedSales14d",
-                "attributedSales30d",
-                "attributedSales1dSameSKU",
-                "attributedSales7dSameSKU",
-                "attributedSales14dSameSKU",
-                "attributedSales30dSameSKU",
-            ])
-        }
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start, date_end)
+        body.configuration.groupBy = ["campaign","adGroup"]
+        return body
 
+class SponsoredProductsReportTargetExpressionStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_targets_expressions'
+    KEY_PROPERTIES = ['adGroupId','campaignId','keywordId', 'date']
 
-class SponsoredProductsReportKeywordsStream(BaseSponsoredProductsReportStream):
-    TABLE = 'sponsored_products_report_keywords'
-    KEY_PROPERTIES = ['keywordId', 'day', 'profileId']
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        filters = {
+                    "field": "keywordType",
+                    "values": [
+                    "TARGETING_EXPRESSION",
+                    "TARGETING_EXPRESSION_PREDEFINED"
+                    ]
+                }
+        body.configuration.filters = [filters]
+        body.configuration.groupBy = ["targeting"]
+        body.configuration.reportTypeId = "spTargeting"
+        return body
 
-    @property
-    def recordType(self):
-        return "keywords"
+class SponsoredProductsReportTargetKeywordsStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_targets_keywords'
+    KEY_PROPERTIES = ['adGroupId','campaignId','keywordId', 'date']
 
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join([
-                "campaignName",
-                "campaignId",
-                "keywordId",
-                "keywordText",
-                "matchType",
-                "impressions",
-                "clicks",
-                "cost",
-                "attributedConversions1d",
-                "attributedConversions7d",
-                "attributedConversions14d",
-                "attributedConversions30d",
-                "attributedConversions1dSameSKU",
-                "attributedConversions7dSameSKU",
-                "attributedConversions14dSameSKU",
-                "attributedConversions30dSameSKU",
-                "attributedUnitsOrdered1d",
-                "attributedUnitsOrdered7d",
-                "attributedUnitsOrdered14d",
-                "attributedUnitsOrdered30d",
-                "attributedSales1d",
-                "attributedSales7d",
-                "attributedSales14d",
-                "attributedSales30d",
-                "attributedSales1dSameSKU",
-                "attributedSales7dSameSKU",
-                "attributedSales14dSameSKU",
-                "attributedSales30dSameSKU",
-            ])
-        }
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        filters = {
+                    "field": "keywordType",
+                    "values": [
+                    "BROAD",
+                    "PHRASE",
+                    "EXACT"
+                    ]
+                }
+        body.configuration.filters = [filters]
+        body.configuration.groupBy = ["targeting"]
+        body.configuration.reportTypeId = "spTargeting"
+        return body
 
+class SponsoredProductsReportSearchTermsKeywordStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_search_terms_keywords'
+    KEY_PROPERTIES = ['adGroupId','campaignId','keywordId', 'date']
 
-class SponsoredProductsReportTargetStream(BaseSponsoredProductsReportStream):
-    TABLE = 'sponsored_products_report_targets'
-    KEY_PROPERTIES = ['targetId', 'day', 'profileId']
-
-    @property
-    def recordType(self):
-        return "targets"
-
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join(
-                ['adGroupId', 'adGroupName', 'attributedConversions14d', 'attributedConversions14dSameSKU',
-                 'attributedConversions1d', 'attributedConversions1dSameSKU', 'attributedConversions30d',
-                 'attributedConversions30dSameSKU', 'attributedConversions7d', 'attributedConversions7dSameSKU',
-                 'attributedSales14d', 'attributedSales14dSameSKU', 'attributedSales1d', 'attributedSales1dSameSKU',
-                 'attributedSales30d', 'attributedSales30dSameSKU', 'attributedSales7d', 'attributedSales7dSameSKU',
-                 'attributedUnitsOrdered14d', 'attributedUnitsOrdered14dSameSKU', 'attributedUnitsOrdered1d',
-                 'attributedUnitsOrdered1dSameSKU', 'attributedUnitsOrdered30d', 'attributedUnitsOrdered30dSameSKU',
-                 'attributedUnitsOrdered7d', 'attributedUnitsOrdered7dSameSKU', 'campaignBudget', 'campaignBudgetType',
-                 'campaignId', 'campaignName', 'campaignStatus', 'clicks', 'cost', 'impressions', 'targetId',
-                 'targetingExpression', 'targetingText', 'targetingType']
-
-            )
-        }
-
-
-class SponsoredProductsReportSearchTermsKeywordStream(SponsoredProductsReportKeywordsStream):
-    TABLE = 'sponsored_products_report_search_terms_keyword'
-    KEY_PROPERTIES = ['keywordId', 'day', 'profileId']
-
-    def get_body(self, day):
-        body = super().get_body(day)
-        body["segment"] = "query"
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        filters =  {
+                    "field": "keywordType",
+                    "values": [
+                    "BROAD",
+                    "PHRASE",
+                    "EXACT"
+                    ]
+                }
+        body.configuration.filters = [filters]
+        body.configuration.groupBy = ["searchTerm"]
+        body.configuration.reportTypeId = "spSearchTerm"
         return body
 
 
-class SponsoredProductsReportSearchTermsTargetStream(SponsoredProductsReportTargetStream):
-    TABLE = 'sponsored_products_report_search_terms_target'
-    KEY_PROPERTIES = ['targetId', 'day', 'profileId']
+class SponsoredProductsReportSearchTermsExpressionStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_search_terms_expressions'
+    KEY_PROPERTIES = ['adGroupId','campaignId','keywordId', 'date']
 
-    def get_body(self, day):
-        body = super().get_body(day)
-        body["segment"] = "query"
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        filters = {
+                    "field": "keywordType",
+                    "values": [
+                    "TARGETING_EXPRESSION",
+                    "TARGETING_EXPRESSION_PREDEFINED"
+                    ]
+                }
+        body.configuration.filters = [filters]
+        body.configuration.groupBy = ["searchTerm"]
+        body.configuration.reportTypeId = "spSearchTerm"
         return body
 
+class SponsoredProductsReportAdvertiserStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_advertiser'
+    KEY_PROPERTIES = ['advertisedAsin','campaignId','adId', 'date']
 
-class SponsoredProductsReportPlacement(BaseSponsoredProductsReportStream):
-    TABLE = "sponsored_products_report_placement"
-    KEY_PROPERTIES = ['campaignId', 'day', 'profileId']
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        body.configuration.groupBy = ["advertiser"]
+        body.configuration.reportTypeId = "spAdvertisedProduct"
+        return body
 
-    @property
-    def recordType(self):
-        return "campaigns"
+class SponsoredProductsReportAsinStream(BaseSponsoredProductsReportStream):
+    TABLE = 'sponsored_products_report_asin'
+    KEY_PROPERTIES = ['advertisedAsin','campaignId', 'date']
 
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "segment": "placement",
-            "metrics": ",".join(['applicableBudgetRuleId', 'applicableBudgetRuleName', 'attributedConversions14d',
-                                 'attributedConversions14dSameSKU', 'attributedConversions1d',
-                                 'attributedConversions1dSameSKU', 'attributedConversions30d',
-                                 'attributedConversions30dSameSKU', 'attributedConversions7d',
-                                 'attributedConversions7dSameSKU', 'attributedSales14d',
-                                 'attributedSales14dSameSKU', 'attributedSales1d', 'attributedSales1dSameSKU',
-                                 'attributedSales30d', 'attributedSales30dSameSKU', 'attributedSales7d',
-                                 'attributedSales7dSameSKU', 'attributedUnitsOrdered14d',
-                                 'attributedUnitsOrdered14dSameSKU', 'attributedUnitsOrdered1d',
-                                 'attributedUnitsOrdered1dSameSKU', 'attributedUnitsOrdered30d',
-                                 'attributedUnitsOrdered30dSameSKU', 'attributedUnitsOrdered7d',
-                                 'attributedUnitsOrdered7dSameSKU', 'bidPlus', 'campaignBudget',
-                                 'campaignBudgetType', 'campaignId', 'campaignName', 'campaignRuleBasedBudget',
-                                 'campaignStatus', 'clicks', 'cost', 'currency', 'impressions']
-                                )
-        }
-
-
-class __SponsoredProductsReportASIN(BaseSponsoredProductsReportStream):
-
-    @property
-    def recordType(self):
-        return "asins"
-
-    def get_body(self, day):
-        return {
-            "reportDate": day.strftime('%Y%m%d'),
-            "metrics": ",".join(['adGroupId', 'adGroupName', 'asin', 'attributedSales14dOtherSKU',
-                                 'attributedSales1dOtherSKU', 'attributedSales30dOtherSKU', 'attributedSales7dOtherSKU',
-                                 'attributedUnitsOrdered14d', 'attributedUnitsOrdered14dOtherSKU',
-                                 'attributedUnitsOrdered1d', 'attributedUnitsOrdered1dOtherSKU',
-                                 'attributedUnitsOrdered30d', 'attributedUnitsOrdered30dOtherSKU',
-                                 'attributedUnitsOrdered7d', 'attributedUnitsOrdered7dOtherSKU', 'campaignId',
-                                 'campaignName', 'currency', 'matchType', 'otherAsin',
-                                 'sku']
-                                ),
-            "campaignType": "sponsoredProducts"
-        }
-
-
-class SponsoredProductsReportASINKeyword(__SponsoredProductsReportASIN):
-    TABLE = "sponsored_products_report_asins_keywords"
-    KEY_PROPERTIES = ['asin', 'day', 'profileId']
-
-    def get_body(self, day):
-        b = super().get_body(day)
-        b["metrics"] = b["metrics"] + ",keywordId,keywordText"
-
-        return b
-
-
-class SponsoredProductsReportASINTarget(__SponsoredProductsReportASIN):
-    TABLE = "sponsored_products_report_asins_targets"
-    KEY_PROPERTIES = ['asin', 'day', 'profileId']
-
-    def get_body(self, day):
-        b = super().get_body(day)
-        b["metrics"] = b["metrics"] + ",targetId,targetingExpression,targetingText,targetingType"
-        return b
+    def get_body(self, date_start, date_end):
+        body = super().get_body(date_start=date_start, date_end=date_end)
+        body.configuration.groupBy = ["asin"]
+        body.configuration.reportTypeId = "spPurchasedProduct"
+        return body

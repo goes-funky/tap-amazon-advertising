@@ -4,27 +4,27 @@
     "properties": {
         "profileId": {
             "description": "The ID of the profile",
-            "type": "integer"
+            "type": ["null","integer"]
         },
         "portfolioId": {
             "description": "The ID of the portfolio",
-            "type": "integer"
+            "type":  ["null","integer"]
         },
         "campaignId": {
             "description": "The ID of the campaign",
-            "type": "integer"
+            "type":  ["null","integer"]
         },
         "name": {
             "description": "The name of the campaign",
-            "type": "string"
+            "type":  ["null", "string"]
         },
         "tags": {
             "description": "A list of advertiser-specified custom identifiers for the campaign",
-            "type": "string"
+            "type":  ["null", "string"]
         },
         "targetingType": {
             "description": "Differentiates between a keyword-targeted and automatically targeted campaign",
-            "type": "string",
+            "type":  ["null", "string"],
             "oneOf": [
                 "manual",
                 "auto"
@@ -35,7 +35,7 @@
         "networks": {},
         "state": {
             "description": "Advertiser-specified state of the campaign",
-            "type": "string",
+            "type":["null", "string"],
             "oneOf": [
                 "enabled",
                 "paused",
@@ -44,24 +44,24 @@
         },
         "dailyBudget": {
             "description": "Daily budget for the campaign in dollars",
-            "type": "number",
+            "type": ["null","number"],
             "minimum": 1.0
         },
         "startDate": {
             "description": "The date the campaign will go or went live as YYYYMMDD",
-            "type": "string"
+            "type":  ["null", "string"]
         },
         "endDate": {
             "description": "The optional date the campaign will stop running as YYYYMMDD",
-            "type": "string"
+            "type":  ["null", "string"]
         },
         "premiumBidAdjustment": {
             "description": "When enabled, Amazon will increase the default bid for your ads that are eligible to appear in this placement. See developer notes for more information.",
-            "type": "boolean"
+            "type": ["null","boolean"]
         },
         "placement": {
             "description": "Ad placement. Only returned when segment is set to placement.",
-            "type": "string",
+            "type": ["null", "string"],
             "oneOf": [
                 "Top of Search on-Amazon",
                 "Other on-Amazon"
@@ -69,15 +69,15 @@
         },
         "creationDate": {
             "description": "The date the campaign was created as epoch time in milliseconds",
-            "type": "integer"
+            "type":  ["null","integer"]
         },
         "lastUpdatedDate": {
             "description": "The date the campaign was last updated as epoch time in milliseconds",
-            "type": "integer"
+            "type":  ["null","integer"]
         },
         "servingStatus": {
             "description": "The computed status, accounting for campaign out of budget, policy violations, etc. See developer notes for more information.",
-            "type": "string",
+            "type":  ["null", "string"],
             "oneOf": [
                 "CAMPAIGN_ARCHIVED",
                 "CAMPAIGN_PAUSED",
@@ -104,13 +104,13 @@
         },
         "landingPage": {
             "title": "LandingPage",
-            "type": "object",
+            "type": ["null","object"],
             "properties": {
                 "pageType": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "url": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 }
             }
         },
@@ -119,15 +119,24 @@
         },
         "bidAdjustments": {
             "title": "bidAdjustments",
-            "type": "object",
+            "type": ["null","array"],
             "description": "List of bid adjustment for each placement group. BidMultiplier cannot be specified when bidAdjustments presents. Not supported for video campaigns",
-            "properties": {
-                "bidAdjustmentPredicate": {
-                    "type": "string"
-                },
-                "bidAdjustmentPercent": {
-                    "type": "number"
-                }
+            "items": {
+                "type": ["null","object"],
+               "properties": {
+                   "bidAdjustmentPredicate": {
+                       "type": [
+                           "null",
+                           "string"
+                       ]
+                   },
+                   "bidAdjustmentPercent": {
+                       "type": [
+                           "null",
+                           "number"
+                       ]
+                   }
+               }
             }
         },
         "adFormat": {
@@ -136,26 +145,26 @@
         },
         "creative": {
             "title": "creative",
-            "type": "object",
+            "type": ["null","object"],
             "description": "Note that the values of each field in this object are immutable for an existing campaign.",
             "properties": {
                 "brandName": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "brandLogoAssetID": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "brandLogoUrl": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "headline": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "asins": {
-                    "type": "string"
+                    "type":  ["null", "string"]
                 },
                 "shouldOptimizeAsins": {
-                    "type": "boolean"
+                    "type": ["null","boolean"]
                 }
             }
         }

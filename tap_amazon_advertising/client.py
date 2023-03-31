@@ -36,18 +36,22 @@ class AmazonAdvertisingClient:
 
         return tokens['access_token']
 
-    def _make_request(self, url, method, params=None, body=None, attempts=0):
+    def _make_request(self, url, method, params=None, body=None, attempts=0, auth_required=True):
         LOGGER.info("Making {} request to {} ({})".format(method, url, params))
-
+        headers = {
+                      'Content-Type': 'application/json',
+                      'Authorization': 'Bearer {}'.format(self.access_token),
+                      'Amazon-Advertising-API-ClientId': self.config.get('client_id'),
+                      'Amazon-Advertising-API-Scope': self.config.get('profile_id'),
+                  }
+        if not auth_required:
+            headers = {
+                'Content-Type': 'application/json'
+            }
         response = requests.request(
             method,
             url,
-            headers={
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer {}'.format(self.access_token),
-                'Amazon-Advertising-API-ClientId': self.config.get('client_id'),
-                'Amazon-Advertising-API-Scope': self.config.get('profile_id'),
-            },
+            headers=headers,
             params=params,
             json=body)
 
@@ -72,12 +76,12 @@ class AmazonAdvertisingClient:
     def make_request(self, url, method, params=None, body=None):
         return self._make_request(url, method, params, body).json()
 
-    def download_gzip(self, url):
+    def download_gzip(self, url, auth_required=True):
         resp = None
         attempts = 3
         for i in range(attempts + 1):
             try:
-                resp = self._make_request(url, 'GET')
+                resp = self._make_request(url, 'GET', auth_required=auth_required)
                 break
             except ConnectionError as e:
                 LOGGER.info("Caught error while downloading gzip, sleeping: {}".format(e))
